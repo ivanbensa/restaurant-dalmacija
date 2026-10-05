@@ -1,0 +1,20 @@
+{
+  "name": "restoran-dalmacija-novi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "lucide": "^1.50.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9"
+  }
+}

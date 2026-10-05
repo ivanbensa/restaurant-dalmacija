@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <title data-i18n="pageTitles.gallery">Bildergalerie | Restaurant Dalmacija Berlin</title>
+    <meta name="description" data-i18n-content="metaDescriptions.gallery" content="Bilder aus dem Restaurant Dalmacija in Berlin-Reinickendorf: Einblicke in den Gastraum, das Team und die Atmosphäre.">
+    <link rel="icon" type="image/svg+xml" href="images/croatia_logo.svg">
+</head>
+
+<body class="gallery-page">
+
+<a class="skip-link" data-i18n="accessibility.skipLink" href="#main-content">
+    Zum Hauptinhalt springen
+</a>
+
+
+<!-- ===================== HEADER / NAVBAR ===================== -->
+
+<header>
+    <nav class="navbar navbar-expand-xl custom-navbar" aria-label="Hauptnavigation" data-i18n-aria-label="accessibility.mainNavigation">
+        <div class="container">
+
+            <!-- LOGO -->
+            <a
+                    class="navbar-brand d-flex align-items-center gap-3"
+                    href="index.html"
+            >
+                <img
+                        src="images/croatia_logo.svg"
+                        alt=""
+                        width="42"
+                >
+
+                <span class="logo-text">Dalmacija</span>
+            </a>
+
+
+            <!-- MOBILE TOGGLER -->
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Navigation öffnen" data-i18n-aria-label="accessibility.openNavigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <!-- NAVIGATION -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <ul class="navbar-nav ms-auto align-items-center gap-xl-3">
+
+                    <li class="nav-item">
+                        <a
+                                class="nav-link"
+                                href="index.html"
+                                data-i18n="nav.home"
+                        >
+                            Willkommen
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                                class="nav-link"
+                                href="menu.html"
+                                data-i18n="nav.food"
+                        >
+                            Speisekarte
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                                class="nav-link"
+                                href="drinks.html"
+                                data-i18n="nav.drinks"
+                        >
+                            Getränkekarte
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                                class="nav-link active"
+                                href="gallery.html"
+                                aria-current="page"
+                                data-i18n="nav.gallery"
+                        >
+                            Bildergalerie
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                                class="nav-link"
+                                href="index.html#kontakt"
+                                data-i18n="nav.contact"
+                        >
+                            Kontakt
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <a class="navbar-reservation" href="tel:+49304134103"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 2v6m10-6v6M3 11h18M7 15h3m4 0h3m-10 3h3m4 0h3"/></svg><span data-i18n="hero.reservation">Tisch reservieren</span></a>
+            <!-- LANGUAGE SWITCHER -->
+                <div class="dropdown language-switcher ms-xl-4">
+
+                    <button
+                            class="language-btn dropdown-toggle d-flex align-items-center gap-2" aria-label="Sprache wählen: Deutsch"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                    >
+                        <img
+                                src="images/flags/de.svg"
+                                alt=""
+                        >
+
+                        <span>DE</span>
+                    </button>
+
+
+                    <ul class="dropdown-menu dropdown-menu-end">
+
+                        <li>
+                            <button
+                                    type="button"
+                                    class="dropdown-item d-flex align-items-center gap-2"
+                                    data-lang="de" lang="de" aria-pressed="true"
+                                    aria-label="Deutsch"
+                            >
+                                <img
+                                        src="images/flags/de.svg"
+                                        alt=""
+                                >
+
+                                <span>Deutsch</span>
+                            </button>
+                        </li>
+
+
+                        <li>
+                            <button
+                                    type="button"
+                                    class="dropdown-item d-flex align-items-center gap-2"
+                                    data-lang="hr" lang="hr" aria-pressed="false"
+                                    aria-label="Hrvatski"
+                            >
+                                <img
+                                        src="images/flags/hr.svg"
+                                        alt=""
+                                >
+
+                                <span>Hrvatski</span>
+                            </button>
+                        </li>
+
+
+                        <li>
+                            <button
+                                    type="button"
+                                    class="dropdown-item d-flex align-items-center gap-2"
+                                    data-lang="en" lang="en" aria-pressed="false"
+                                    aria-label="English"
+                            >
+                                <img
+                                        src="images/flags/en.svg"
+                                        alt=""
+                                >
+
+                                <span>English</span>
+                            </button>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- END OF LANGUAGE SWITCHER -->
+
+            </div>
+            <!-- END OF NAVIGATION -->
+
+        </div>
+    </nav>
+</header>
+
+<!-- ===================== END OF HEADER ===================== -->
+
+
+<!-- ===================== MAIN CONTENT ===================== -->
+
+<main id="main-content" tabindex="-1">
+
+
+    <!-- ===================== GALLERY HEADER ===================== -->
+
+    <section class="gallery-header-section">
+
+        <div class="container text-center">
+
+            <span
+                    class="section-eyebrow"
+                    data-i18n="galleryPage.eyebrow"
+            >
+                Impressionen
+            </span>
+
+            <h1
+                    class="gallery-main-title"
+                    data-i18n="galleryPage.title"
+            >
+                Bildergalerie
+            </h1>
+
+            <p
+                    class="gallery-intro"
+                    data-i18n="galleryPage.intro"
+            >
+                Einblicke in unser Restaurant, unsere Küche
+                und kroatische Spezialitäten.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ===================== END OF GALLERY HEADER ===================== -->
+
+
+    <!-- ===================== GALLERY ===================== -->
+
+    <section class="gallery-section">
+
+        <div class="container">
+
+            <div class="gallery-grid">
+                <!-- Reuses the supplied local fish photograph; the previous watermarked stock image is excluded. -->
+
+
+                <button
+                        class="gallery-item"
+                        type="button"
+                        data-gallery-index="0"
+                >
+                    <img
+                            src="images/specialties/fish.webp"
+                            alt="Ganzer gegrillter Fisch mit Kartoffeln und Zitrone" data-i18n-alt="images.specialtyFish"
+                            loading="lazy"
+                    >
+                </button>
+
+
+                <button
+                        class="gallery-item"
+                        type="button"
+                        data-gallery-index="1"
+                >
+                    <img
+                            src="images/gallery/restoran-dalmacija-drinks.webp"
+                            alt="Ein Mitarbeiter schenkt hinter der Theke ein Getränk ein" data-i18n-alt="images.galleryService"
+                            loading="lazy"
+                    >
+                </button>
+
+
+                <button
+                        class="gallery-item"
+                        type="button"
+                        data-gallery-index="2"
+                >
+                    <img
+                            src="images/gallery/restoran-dalmacija-inside.webp"
+                            alt="Gastraum des Restaurants Dalmacija mit gedeckten Tischen und Sitzbänken" data-i18n-alt="images.galleryInterior"
+                            loading="lazy"
+                    >
+                </button>
+
+
+                <button
+                        class="gallery-item"
+                        type="button"
+                        data-gallery-index="3"
+                >
+                    <img
+                            src="images/gallery/restoran-dalmacija-beer.webp"
+                            alt="Dekorative Bärenfigur mit kroatischem Wappen und Dalmacija-Schild" data-i18n-alt="images.galleryBear"
+                            loading="lazy"
+                    >
+                </button>
+
+
+                <button
+                        class="gallery-item"
+                        type="button"
+                        data-gallery-index="4"
+                >
+                    <img
+                            src="images/gallery/restoran-dalmacija-menu-image.webp"
+                            alt="Eingang und Fassade des Restaurants Dalmacija mit Tischen im Freien" data-i18n-alt="images.galleryFacade"
+                            loading="lazy"
+                    >
+                </button>
+
+
+                <button
+                        class="gallery-item"
+                        type="button"
+                        data-gallery-index="5"
+                >
+                    <img
+                            src="images/gallery/restoran-dalmacija-diploma.webp"
+                            alt="Zwei Männer im Restaurant Dalmacija präsentieren eine Urkunde" data-i18n-alt="images.galleryAward"
+                            loading="lazy"
+                    >
+                </button>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===================== END OF GALLERY ===================== -->
+
+
+    <!-- ===================== GALLERY MODAL ===================== -->
+
+    <div
+            class="modal fade gallery-modal"
+            id="galleryModal"
+            aria-labelledby="galleryModalTitle"
+            tabindex="-1"
+            aria-hidden="true"
+    >
+
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+
+            <div class="modal-content">
+                <h2 id="galleryModalTitle" class="visually-hidden" data-i18n="accessibility.galleryTitle">Bildergalerie des Restaurants Dalmacija</h2>
+
+
+                <!-- CLOSE -->
+                <button
+                        type="button"
+                        class="btn-close btn-close-white gallery-modal-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Schließen" data-i18n-aria-label="accessibility.closeGallery"
+                ></button>
+
+
+                <!-- CAROUSEL -->
+                <div
+                        id="galleryCarousel"
+                        class="carousel slide"
+                        data-bs-interval="false"
+                >
+
+                    <div
+                            class="carousel-inner"
+                            id="galleryCarouselInner"
+                    >
+                        <!-- JavaScript ubacuje slike -->
+                    </div>
+
+
+                    <!-- PREVIOUS -->
+                    <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#galleryCarousel"
+                            data-bs-slide="prev"
+                            aria-label="Vorheriges Bild" data-i18n-aria-label="accessibility.previousImage"
+                    >
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+
+                    <!-- NEXT -->
+                    <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#galleryCarousel"
+                            data-bs-slide="next"
+                            aria-label="Nächstes Bild" data-i18n-aria-label="accessibility.nextImage"
+                    >
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ===================== END OF GALLERY MODAL ===================== -->
+
+
+</main>
+
+<!-- ===================== END OF MAIN CONTENT ===================== -->
+
+
+<!-- ===================== FOOTER ===================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row g-4 py-5">
+
+
+            <!-- BRAND -->
+            <div class="col-lg-4">
+
+                <a
+                        href="index.html"
+                        class="footer-brand d-inline-flex align-items-center gap-3"
+                >
+
+                    <img
+                            src="images/croatia_logo.svg"
+                            alt=""
+                            width="52"
+                    >
+
+                    <span>Dalmacija</span>
+
+                </a>
+
+
+                <p
+                        class="footer-text mt-3"
+                        data-i18n="footer.description"
+                >
+                    Traditionelle kroatische Küche und dalmatinische
+                    Gastfreundschaft seit 1980 in Berlin.
+                </p>
+
+            </div>
+
+
+            <!-- NAVIGATION -->
+            <div class="col-6 col-lg-2 offset-lg-1">
+
+                <h3
+                        class="footer-title"
+                        data-i18n="footer.navigation"
+                >
+                    Navigation
+                </h3>
+
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a
+                                href="index.html"
+                                data-i18n="nav.home"
+                        >
+                            Willkommen
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                                href="menu.html"
+                                data-i18n="nav.food"
+                        >
+                            Speisekarte
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                                href="drinks.html"
+                                data-i18n="nav.drinks"
+                        >
+                            Getränkekarte
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                                href="gallery.html"
+                                data-i18n="nav.gallery"
+                        >
+                            Bildergalerie
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                                href="index.html#kontakt"
+                                data-i18n="nav.contact"
+                        >
+                            Kontakt
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- CONTACT -->
+            <div class="col-6 col-lg-4 offset-lg-1">
+
+                <h3
+                        class="footer-title"
+                        data-i18n="footer.contact"
+                >
+                    Kontakt
+                </h3>
+
+
+                <address class="footer-contact">
+                    Quäkerstraße 2<br>
+                    13403 Berlin-Reinickendorf
+                </address>
+
+
+                <a
+                        class="footer-phone"
+                        href="tel:+49304134103"
+                >
+                    +49 30 4134103
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+
+            <p data-i18n="footer.copyright">
+                © 2026 Restaurant Dalmacija. Alle Rechte vorbehalten.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ===================== END OF FOOTER ===================== -->
+
+
+<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="js/language.js"></script>
+<script src="js/gallery.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1452 @@
+{
+  "categories": [
+    {
+      "id": "aperitifs",
+      "name": {
+        "de": "APERITIFS",
+        "hr": "APERITIVI",
+        "en": "APERITIFS"
+      },
+      "items": [
+        {
+          "id": 241,
+          "name": {
+            "de": "CAMPARI ORANGE",
+            "hr": "CAMPARI ORANGE",
+            "en": "CAMPARI ORANGE"
+          },
+          "description": {
+            "de": "mit Orangensaft",
+            "hr": "sa sokom od naranče",
+            "en": "with orange juice"
+          },
+          "size": "4cl",
+          "price": 5
+        },
+        {
+          "id": 242,
+          "name": {
+            "de": "MARTINI BIANCO",
+            "hr": "MARTINI BIANCO",
+            "en": "MARTINI BIANCO"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "5cl",
+          "price": 4
+        },
+        {
+          "id": 244,
+          "name": {
+            "de": "PROSECCO",
+            "hr": "PROSECCO",
+            "en": "PROSECCO"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,10l",
+          "price": 4
+        },
+        {
+          "id": 245,
+          "name": {
+            "de": "SANDEMAN MEDIUM DRY SHERRY",
+            "hr": "SANDEMAN MEDIUM DRY SHERRY",
+            "en": "SANDEMAN MEDIUM DRY SHERRY"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "5cl",
+          "price": 3.5
+        },
+        {
+          "id": 246,
+          "name": {
+            "de": "PROŠEK",
+            "hr": "PROŠEK",
+            "en": "PROŠEK"
+          },
+          "description": {
+            "de": "Likörwein, süß",
+            "hr": "likersko vino, slatko",
+            "en": "sweet liqueur wine"
+          },
+          "size": "0,10l",
+          "price": 3.5
+        },
+        {
+          "id": 247,
+          "name": {
+            "de": "RAMAZZOTTI MIT EIS UND ZITRONE",
+            "hr": "RAMAZZOTTI S LEDOM I LIMUNOM",
+            "en": "RAMAZZOTTI WITH ICE AND LEMON"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "4cl",
+          "price": 3.5
+        },
+        {
+          "id": 248,
+          "name": {
+            "de": "APEROL SPRITZ",
+            "hr": "APEROL SPRITZ",
+            "en": "APEROL SPRITZ"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "4cl",
+          "price": 6.5
+        }
+      ]
+    },
+    {
+      "id": "warme-getraenke",
+      "name": {
+        "de": "WARME GETRÄNKE",
+        "hr": "TOPLI NAPITCI",
+        "en": "HOT DRINKS"
+      },
+      "items": [
+        {
+          "id": 201,
+          "name": {
+            "de": "KAFFEE",
+            "hr": "KAVA",
+            "en": "COFFEE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": {
+            "de": "Tasse",
+            "hr": "Šalica",
+            "en": "Cup"
+          },
+          "price": 2.7
+        },
+        {
+          "id": 202,
+          "name": {
+            "de": "ESPRESSO",
+            "hr": "ESPRESSO",
+            "en": "ESPRESSO"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": {
+            "de": "Tasse",
+            "hr": "Šalica",
+            "en": "Cup"
+          },
+          "price": 2.5
+        },
+        {
+          "id": 203,
+          "name": {
+            "de": "CAPPUCCINO",
+            "hr": "CAPPUCCINO",
+            "en": "CAPPUCCINO"
+          },
+          "description": {
+            "de": "mit Milch oder Sahne?",
+            "hr": "s mlijekom ili vrhnjem?",
+            "en": "with milk or cream?"
+          },
+          "size": {
+            "de": "Tasse",
+            "hr": "Šalica",
+            "en": "Cup"
+          },
+          "price": 3.5
+        },
+        {
+          "id": 204,
+          "name": {
+            "de": "TÜRKISCHER MOKKA",
+            "hr": "TURSKA KAVA",
+            "en": "TURKISH COFFEE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": {
+            "de": "Tasse",
+            "hr": "Šalica",
+            "en": "Cup"
+          },
+          "price": 3.5
+        },
+        {
+          "id": 205,
+          "name": {
+            "de": "TEE",
+            "hr": "ČAJ",
+            "en": "TEA"
+          },
+          "description": {
+            "de": "verschiedene Sorten",
+            "hr": "razne vrste",
+            "en": "various flavours"
+          },
+          "size": {
+            "de": "Glas",
+            "hr": "Čaša",
+            "en": "Glass"
+          },
+          "price": 2.5
+        },
+        {
+          "id": 207,
+          "name": {
+            "de": "GROG VON 4cl RUM",
+            "hr": "GROG OD 4cl RUMA",
+            "en": "GROG WITH 4cl RUM"
+          },
+          "description": {
+            "de": "Mischgetränk",
+            "hr": "miješano piće",
+            "en": "mixed drink"
+          },
+          "size": {
+            "de": "Glas",
+            "hr": "Čaša",
+            "en": "Glass"
+          },
+          "price": 4.5
+        },
+        {
+          "id": 208,
+          "name": {
+            "de": "GLÜHWEIN",
+            "hr": "KUHANO VINO",
+            "en": "MULLED WINE"
+          },
+          "description": {
+            "de": "alkoholisches Mischgetränk",
+            "hr": "alkoholno miješano piće",
+            "en": "alcoholic mixed drink"
+          },
+          "size": {
+            "de": "Glas",
+            "hr": "Čaša",
+            "en": "Glass"
+          },
+          "price": 4.5
+        },
+        {
+          "id": 209,
+          "name": {
+            "de": "LATTE MACCHIATO",
+            "hr": "LATTE MACCHIATO",
+            "en": "LATTE MACCHIATO"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": {
+            "de": "Glas",
+            "hr": "Čaša",
+            "en": "Glass"
+          },
+          "price": 4
+        }
+      ]
+    },
+    {
+      "id": "biere",
+      "name": {
+        "de": "BIERE",
+        "hr": "PIVA",
+        "en": "BEERS"
+      },
+      "items": [
+        {
+          "id": 211,
+          "name": {
+            "de": "BERLINER KINDL JUBILÄUMS PILSNER VOM FASS",
+            "hr": "BERLINER KINDL JUBILÄUMS PILSNER TOČENO",
+            "en": "BERLINER KINDL JUBILÄUMS PILSNER ON TAP"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,3l",
+          "price": 4
+        },
+        {
+          "id": 212,
+          "name": {
+            "de": "BERLINER KINDL JUBILÄUMS PILSNER VOM FASS",
+            "hr": "BERLINER KINDL JUBILÄUMS PILSNER TOČENO",
+            "en": "BERLINER KINDL JUBILÄUMS PILSNER ON TAP"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,4l",
+          "price": 4.5
+        },
+        {
+          "id": 213,
+          "name": {
+            "de": "STAROPRAMEN DARK",
+            "hr": "STAROPRAMEN DARK",
+            "en": "STAROPRAMEN DARK"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,3l",
+          "price": 4.1
+        },
+        {
+          "id": 214,
+          "name": {
+            "de": "STAROPRAMEN DARK",
+            "hr": "STAROPRAMEN DARK",
+            "en": "STAROPRAMEN DARK"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,4l",
+          "price": 4.7
+        },
+        {
+          "id": 215,
+          "name": {
+            "de": "ERDINGER WEIßBIER",
+            "hr": "ERDINGER WEIßBIER",
+            "en": "ERDINGER WEIßBIER"
+          },
+          "description": {
+            "de": "Kristall, Hefe hell oder dunkel und alkoholfrei",
+            "hr": "Kristall, Hefe svijetlo ili tamno i bezalkoholno",
+            "en": "Kristall, Hefe light or dark, and alcohol-free"
+          },
+          "size": "0,5l",
+          "price": 5
+        },
+        {
+          "id": 218,
+          "name": {
+            "de": "BERLINER KINDL WEIßE",
+            "hr": "BERLINER KINDL WEIßE",
+            "en": "BERLINER KINDL WEIßE"
+          },
+          "description": {
+            "de": "rot oder grün",
+            "hr": "crveno ili zeleno",
+            "en": "red or green"
+          },
+          "size": "0,3l",
+          "price": 4.5
+        },
+        {
+          "id": 219,
+          "name": {
+            "de": "JEVER FUN",
+            "hr": "JEVER FUN",
+            "en": "JEVER FUN"
+          },
+          "description": {
+            "de": "alkoholfrei",
+            "hr": "bezalkoholno",
+            "en": "alcohol-free"
+          },
+          "size": "0,3l",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "id": "erfrischungsgetraenke",
+      "name": {
+        "de": "ERFRISCHUNGSGETRÄNKE",
+        "hr": "BEZALKOHOLNA PIĆA",
+        "en": "SOFT DRINKS"
+      },
+      "items": [
+        {
+          "id": 220,
+          "name": {
+            "de": "FANTA",
+            "hr": "FANTA",
+            "en": "FANTA"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,2l",
+          "price": 2.5
+        },
+        {
+          "id": 221,
+          "name": {
+            "de": "FANTA",
+            "hr": "FANTA",
+            "en": "FANTA"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,4l",
+          "price": 4.5
+        },
+        {
+          "id": 222,
+          "name": {
+            "de": "COCA-COLA",
+            "hr": "COCA-COLA",
+            "en": "COCA-COLA"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,2l",
+          "price": 2.5
+        },
+        {
+          "id": 223,
+          "name": {
+            "de": "COCA-COLA",
+            "hr": "COCA-COLA",
+            "en": "COCA-COLA"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,4l",
+          "price": 4.5
+        },
+        {
+          "id": 224,
+          "name": {
+            "de": "SPRITE",
+            "hr": "SPRITE",
+            "en": "SPRITE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,2l",
+          "price": 2.5
+        },
+        {
+          "id": 225,
+          "name": {
+            "de": "SPRITE",
+            "hr": "SPRITE",
+            "en": "SPRITE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,4l",
+          "price": 4.5
+        },
+        {
+          "id": 226,
+          "name": {
+            "de": "SPEZI",
+            "hr": "SPEZI",
+            "en": "SPEZI"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,2l",
+          "price": 2.5
+        },
+        {
+          "id": 227,
+          "name": {
+            "de": "SPEZI",
+            "hr": "SPEZI",
+            "en": "SPEZI"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,4l",
+          "price": 4.5
+        },
+        {
+          "id": 228,
+          "name": {
+            "de": "FASSBRAUSE",
+            "hr": "FASSBRAUSE",
+            "en": "FASSBRAUSE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,2l",
+          "price": 2.5
+        },
+        {
+          "id": 229,
+          "name": {
+            "de": "FASSBRAUSE",
+            "hr": "FASSBRAUSE",
+            "en": "FASSBRAUSE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,4l",
+          "price": 4.5
+        },
+        {
+          "id": 230,
+          "name": {
+            "de": "APFELSCHORLE",
+            "hr": "SOK OD JABUKE S MINERALNOM VODOM",
+            "en": "APPLE SPRITZER"
+          },
+          "description": {
+            "de": "Mischgetränk",
+            "hr": "miješano piće",
+            "en": "mixed drink"
+          },
+          "size": "0,2l",
+          "price": 2.5
+        },
+        {
+          "id": 231,
+          "name": {
+            "de": "APFELSCHORLE",
+            "hr": "SOK OD JABUKE S MINERALNOM VODOM",
+            "en": "APPLE SPRITZER"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,4l",
+          "price": 4.5
+        },
+        {
+          "id": 232,
+          "name": {
+            "de": "GEROLSTEINER",
+            "hr": "GEROLSTEINER",
+            "en": "GEROLSTEINER"
+          },
+          "description": {
+            "de": "Sprudel oder medium",
+            "hr": "gazirana ili srednje gazirana",
+            "en": "sparkling or medium sparkling"
+          },
+          "size": "0,2l",
+          "price": 2.9
+        },
+        {
+          "id": 233,
+          "name": {
+            "de": "GEROLSTEINER",
+            "hr": "GEROLSTEINER",
+            "en": "GEROLSTEINER"
+          },
+          "description": {
+            "de": "Sprudel oder still",
+            "hr": "gazirana ili negazirana",
+            "en": "sparkling or still"
+          },
+          "size": "0,4l",
+          "price": 5.3
+        },
+        {
+          "id": 234,
+          "name": {
+            "de": "APFELSAFT BAUER",
+            "hr": "SOK OD JABUKE BAUER",
+            "en": "BAUER APPLE JUICE"
+          },
+          "description": {
+            "de": "Naturtrüb",
+            "hr": "prirodno mutan",
+            "en": "naturally cloudy"
+          },
+          "size": "0,2l",
+          "price": 3.5
+        },
+        {
+          "id": 235,
+          "name": {
+            "de": "ORANGENSAFT BAUER",
+            "hr": "SOK OD NARANČE BAUER",
+            "en": "BAUER ORANGE JUICE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,2l",
+          "price": 3.5
+        },
+        {
+          "id": 237,
+          "name": {
+            "de": "SCHWARZER JOHANNISBEERNEKTAR BAUER",
+            "hr": "NEKTAR OD CRNOG RIBIZA BAUER",
+            "en": "BAUER BLACKCURRANT NECTAR"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,2l",
+          "price": 3.5
+        },
+        {
+          "id": 238,
+          "name": {
+            "de": "SCHWEPPES TONIC WATER",
+            "hr": "SCHWEPPES TONIC WATER",
+            "en": "SCHWEPPES TONIC WATER"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,2l",
+          "price": 3.2
+        },
+        {
+          "id": 239,
+          "name": {
+            "de": "SCHWEPPES BITTER LEMON",
+            "hr": "SCHWEPPES BITTER LEMON",
+            "en": "SCHWEPPES BITTER LEMON"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,2l",
+          "price": 3.2
+        },
+        {
+          "id": 240,
+          "name": {
+            "de": "SCHWEPPES GINGER ALE",
+            "hr": "SCHWEPPES GINGER ALE",
+            "en": "SCHWEPPES GINGER ALE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,2l",
+          "price": 3.2
+        },
+        {
+          "id": 216,
+          "name": {
+            "de": "BRAUMEISTERS KRAFTMALZ",
+            "hr": "BRAUMEISTERS KRAFTMALZ",
+            "en": "BRAUMEISTERS KRAFTMALZ"
+          },
+          "description": {
+            "de": "Malztrunk",
+            "hr": "napitak od slada",
+            "en": "malt drink"
+          },
+          "size": "0,33l",
+          "price": 3.2
+        }
+      ]
+    },
+    {
+      "id": "spirituosen",
+      "name": {
+        "de": "SPIRITUOSEN",
+        "hr": "ŽESTOKA PIĆA",
+        "en": "SPIRITS"
+      },
+      "items": [
+        {
+          "id": 251,
+          "name": {
+            "de": "LOZOVAČA",
+            "hr": "LOZOVAČA",
+            "en": "LOZOVAČA"
+          },
+          "description": {
+            "de": "kroatischer Trester",
+            "hr": "hrvatska rakija od komine",
+            "en": "Croatian pomace brandy"
+          },
+          "size": "2cl",
+          "price": 2.5
+        },
+        {
+          "id": 252,
+          "name": {
+            "de": "ŠLJIVOVICA ORIGINAL",
+            "hr": "ŠLJIVOVICA ORIGINAL",
+            "en": "ŠLJIVOVICA ORIGINAL"
+          },
+          "description": {
+            "de": "Obstbrand aus Pflaumen",
+            "hr": "rakija od šljiva",
+            "en": "plum brandy"
+          },
+          "size": "2cl",
+          "price": 2.5
+        },
+        {
+          "id": 253,
+          "name": {
+            "de": "ŠLJIVOVICA ORIGINAL",
+            "hr": "ŠLJIVOVICA ORIGINAL",
+            "en": "ŠLJIVOVICA ORIGINAL"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "4cl",
+          "price": 4
+        },
+        {
+          "id": 254,
+          "name": {
+            "de": "BARACK PALINKA",
+            "hr": "BARACK PALINKA",
+            "en": "BARACK PALINKA"
+          },
+          "description": {
+            "de": "Obstbrand aus Aprikosen",
+            "hr": "rakija od marelica",
+            "en": "apricot brandy"
+          },
+          "size": "2cl",
+          "price": 3
+        },
+        {
+          "id": 255,
+          "name": {
+            "de": "BARACK PALINKA",
+            "hr": "BARACK PALINKA",
+            "en": "BARACK PALINKA"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "4cl",
+          "price": 4.5
+        },
+        {
+          "id": 258,
+          "name": {
+            "de": "WODKA GORBATSCHOW",
+            "hr": "WODKA GORBATSCHOW",
+            "en": "WODKA GORBATSCHOW"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "2cl",
+          "price": 2.5
+        },
+        {
+          "id": 259,
+          "name": {
+            "de": "TRAVARICA",
+            "hr": "TRAVARICA",
+            "en": "TRAVARICA"
+          },
+          "description": {
+            "de": "kroatischer Branntwein mit Kräutern",
+            "hr": "hrvatska rakija s aromatičnim biljem",
+            "en": "Croatian herbal brandy"
+          },
+          "size": "2cl",
+          "price": 3
+        },
+        {
+          "id": 260,
+          "name": {
+            "de": "FÜRST BISMARCK",
+            "hr": "FÜRST BISMARCK",
+            "en": "FÜRST BISMARCK"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "2cl",
+          "price": 2.5
+        },
+        {
+          "id": 261,
+          "name": {
+            "de": "WALDLER WALDHIMBEERGEIST",
+            "hr": "WALDLER WALDHIMBEERGEIST",
+            "en": "WALDLER WALDHIMBEERGEIST"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "2cl",
+          "price": 3.9
+        }
+      ]
+    },
+    {
+      "id": "likoere",
+      "name": {
+        "de": "LIKÖRE",
+        "hr": "LIKERI",
+        "en": "LIQUEURS"
+      },
+      "items": [
+        {
+          "id": 271,
+          "name": {
+            "de": "KRUŠKOVAC ORIGINAL",
+            "hr": "KRUŠKOVAC ORIGINAL",
+            "en": "KRUŠKOVAC ORIGINAL"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "2cl",
+          "price": 2.5
+        },
+        {
+          "id": 272,
+          "name": {
+            "de": "KRUŠKOVAC ORIGINAL",
+            "hr": "KRUŠKOVAC ORIGINAL",
+            "en": "KRUŠKOVAC ORIGINAL"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "4cl",
+          "price": 4
+        },
+        {
+          "id": 274,
+          "name": {
+            "de": "SAMBUCA",
+            "hr": "SAMBUCA",
+            "en": "SAMBUCA"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "2cl",
+          "price": 2.7
+        },
+        {
+          "id": 275,
+          "name": {
+            "de": "AMARETTO",
+            "hr": "AMARETTO",
+            "en": "AMARETTO"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "2cl",
+          "price": 2.5
+        },
+        {
+          "id": 276,
+          "name": {
+            "de": "CROATIA-COCKTAIL",
+            "hr": "CROATIA-COCKTAIL",
+            "en": "CROATIA COCKTAIL"
+          },
+          "description": {
+            "de": "Kruškovac & Šljivovica",
+            "hr": "Kruškovac i Šljivovica",
+            "en": "Kruškovac & Šljivovica"
+          },
+          "size": "2cl",
+          "price": 2.5
+        },
+        {
+          "id": 277,
+          "name": {
+            "de": "CROATIA-COCKTAIL",
+            "hr": "CROATIA-COCKTAIL",
+            "en": "CROATIA COCKTAIL"
+          },
+          "description": {
+            "de": "Kruškovac & Šljivovica",
+            "hr": "Kruškovac i Šljivovica",
+            "en": "Kruškovac & Šljivovica"
+          },
+          "size": "4cl",
+          "price": 4
+        },
+        {
+          "id": 279,
+          "name": {
+            "de": "BAILEYS IRISH CREAM",
+            "hr": "BAILEYS IRISH CREAM",
+            "en": "BAILEYS IRISH CREAM"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "4cl",
+          "price": 3.5
+        }
+      ]
+    },
+    {
+      "id": "magenbitter",
+      "name": {
+        "de": "MAGENBITTER",
+        "hr": "GORKI BILJNI LIKERI",
+        "en": "BITTERS"
+      },
+      "items": [
+        {
+          "id": 281,
+          "name": {
+            "de": "PELINKOVAC",
+            "hr": "PELINKOVAC",
+            "en": "PELINKOVAC"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "2cl",
+          "price": 2.5
+        },
+        {
+          "id": 282,
+          "name": {
+            "de": "PELINKOVAC",
+            "hr": "PELINKOVAC",
+            "en": "PELINKOVAC"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "4cl",
+          "price": 4
+        },
+        {
+          "id": 283,
+          "name": {
+            "de": "FERNET BRANCA",
+            "hr": "FERNET BRANCA",
+            "en": "FERNET BRANCA"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "2cl",
+          "price": 2.5
+        },
+        {
+          "id": 284,
+          "name": {
+            "de": "JÄGERMEISTER",
+            "hr": "JÄGERMEISTER",
+            "en": "JÄGERMEISTER"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "2cl",
+          "price": 2.5
+        }
+      ]
+    },
+    {
+      "id": "weine",
+      "name": {
+        "de": "WEINE",
+        "hr": "VINA",
+        "en": "WINES"
+      },
+      "items": [
+        {
+          "id": 315,
+          "name": {
+            "de": "LAŠKI RIZLING",
+            "hr": "LAŠKI RIZLING",
+            "en": "LAŠKI RIZLING"
+          },
+          "description": {
+            "de": "Kroatien, lieblich",
+            "hr": "Hrvatska, slatko",
+            "en": "Croatia, sweet"
+          },
+          "size": "0,20l",
+          "price": 5.5
+        },
+        {
+          "id": 316,
+          "name": {
+            "de": "LAŠKI RIZLING",
+            "hr": "LAŠKI RIZLING",
+            "en": "LAŠKI RIZLING"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "1,00l",
+          "price": 18
+        },
+        {
+          "id": 317,
+          "name": {
+            "de": "GRAŠEVINA",
+            "hr": "GRAŠEVINA",
+            "en": "GRAŠEVINA"
+          },
+          "description": {
+            "de": "Kroatien, trocken",
+            "hr": "Hrvatska, suho",
+            "en": "Croatia, dry"
+          },
+          "size": "0,20l",
+          "price": 5.5
+        },
+        {
+          "id": 318,
+          "name": {
+            "de": "GRAŠEVINA",
+            "hr": "GRAŠEVINA",
+            "en": "GRAŠEVINA"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "1,00l",
+          "price": 18.5
+        },
+        {
+          "id": 319,
+          "name": {
+            "de": "GRAŠEVINA",
+            "hr": "GRAŠEVINA",
+            "en": "GRAŠEVINA"
+          },
+          "description": {
+            "de": "Kroatien, halbtrocken",
+            "hr": "Hrvatska, polusuho",
+            "en": "Croatia, semi-dry"
+          },
+          "size": "0,20l",
+          "price": 5.5
+        },
+        {
+          "id": 320,
+          "name": {
+            "de": "GRAŠEVINA",
+            "hr": "GRAŠEVINA",
+            "en": "GRAŠEVINA"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "1,00l",
+          "price": 18.5
+        },
+        {
+          "id": 322,
+          "name": {
+            "de": "MALVAZIJA",
+            "hr": "MALVAZIJA",
+            "en": "MALVAZIJA"
+          },
+          "description": {
+            "de": "Kroatien, trocken",
+            "hr": "Hrvatska, suho",
+            "en": "Croatia, dry"
+          },
+          "size": "0,20l",
+          "price": 6
+        },
+        {
+          "id": 323,
+          "name": {
+            "de": "MALVAZIJA",
+            "hr": "MALVAZIJA",
+            "en": "MALVAZIJA"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "1,00l",
+          "price": 19
+        }
+      ]
+    },
+    {
+      "id": "rosewein",
+      "name": {
+        "de": "ROSÉWEIN",
+        "hr": "ROSÉ VINO",
+        "en": "ROSÉ WINE"
+      },
+      "items": [
+        {
+          "id": 333,
+          "name": {
+            "de": "PLAVAC ROSÉ",
+            "hr": "PLAVAC ROSÉ",
+            "en": "PLAVAC ROSÉ"
+          },
+          "description": {
+            "de": "Kroatien, trocken",
+            "hr": "Hrvatska, suho",
+            "en": "Croatia, dry"
+          },
+          "size": "0,20l",
+          "price": 5.5
+        }
+      ]
+    },
+    {
+      "id": "rotweine",
+      "name": {
+        "de": "ROTWEINE",
+        "hr": "CRVENA VINA",
+        "en": "RED WINES"
+      },
+      "items": [
+        {
+          "id": 331,
+          "name": {
+            "de": "PLAVAC",
+            "hr": "PLAVAC",
+            "en": "PLAVAC"
+          },
+          "description": {
+            "de": "Kroatien, trocken",
+            "hr": "Hrvatska, suho",
+            "en": "Croatia, dry"
+          },
+          "size": "0,20l",
+          "price": 5.5
+        },
+        {
+          "id": 335,
+          "name": {
+            "de": "PELJEŠAC",
+            "hr": "PELJEŠAC",
+            "en": "PELJEŠAC"
+          },
+          "description": {
+            "de": "Kroatien, mild",
+            "hr": "Hrvatska, blago",
+            "en": "Croatia, mild"
+          },
+          "size": "0,20l",
+          "price": 5.5
+        },
+        {
+          "id": 337,
+          "name": {
+            "de": "LAMBRUSCO",
+            "hr": "LAMBRUSCO",
+            "en": "LAMBRUSCO"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,20l",
+          "price": 5.5
+        },
+        {
+          "id": 339,
+          "name": {
+            "de": "DALMATINER",
+            "hr": "DALMATINER",
+            "en": "DALMATINER"
+          },
+          "description": {
+            "de": "Dalmatien, mild",
+            "hr": "Dalmacija, blago",
+            "en": "Dalmatia, mild"
+          },
+          "size": "0,20l",
+          "price": 5.5
+        },
+        {
+          "id": 340,
+          "name": {
+            "de": "MERLOT",
+            "hr": "MERLOT",
+            "en": "MERLOT"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "size": "0,20l",
+          "price": 6
+        }
+      ]
+    },
+    {
+      "id": "weinhaltige-mischgetraenke",
+      "name": {
+        "de": "WEINHALTIGE MISCHGETRÄNKE",
+        "hr": "VINSKA MIJEŠANA PIĆA",
+        "en": "WINE-BASED MIXED DRINKS"
+      },
+      "items": [
+        {
+          "id": 321,
+          "name": {
+            "de": "WEINSCHORLE",
+            "hr": "VINSKI ŠPRICER",
+            "en": "WINE SPRITZER"
+          },
+          "description": {
+            "de": "rot oder weiß",
+            "hr": "crno ili bijelo",
+            "en": "red or white"
+          },
+          "size": "0,20l",
+          "price": 4.9
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "title": {
+      "de": "Zusatzstoffe & Allergene",
+      "hr": "Aditivi i alergeni",
+      "en": "Additives & Allergens"
+    },
+    "additivesTitle": {
+      "de": "Zusatzstoffe",
+      "hr": "Aditivi",
+      "en": "Additives"
+    },
+    "allergensTitle": {
+      "de": "Allergene",
+      "hr": "Alergeni",
+      "en": "Allergens"
+    },
+    "priceNote": {
+      "de": "Alle Preise inklusive Bedienung und MwSt.",
+      "hr": "Sve cijene uključuju uslugu i PDV.",
+      "en": "All prices include service and VAT."
+    },
+    "additives": {
+      "1": {
+        "de": "mit Farbstoff",
+        "hr": "s bojilom",
+        "en": "with colouring"
+      },
+      "2": {
+        "de": "koffeinhaltig",
+        "hr": "sadrži kofein",
+        "en": "contains caffeine"
+      },
+      "3": {
+        "de": "chininhaltig",
+        "hr": "sadrži kinin",
+        "en": "contains quinine"
+      },
+      "4": {
+        "de": "mit Konservierungsstoff",
+        "hr": "s konzervansom",
+        "en": "with preservative"
+      },
+      "5": {
+        "de": "mit Antioxydationsmittel",
+        "hr": "s antioksidansom",
+        "en": "with antioxidant"
+      },
+      "7": {
+        "de": "mit Stickoxydul",
+        "hr": "s dušikovim oksidulom",
+        "en": "with nitrous oxide"
+      },
+      "8": {
+        "de": "mit Phosphat",
+        "hr": "s fosfatom",
+        "en": "with phosphate"
+      }
+    },
+    "allergens": {
+      "A": {
+        "de": "Milcheiweiß",
+        "hr": "mliječni proteini",
+        "en": "milk protein"
+      },
+      "B": {
+        "de": "Sellerie",
+        "hr": "celer",
+        "en": "celery"
+      },
+      "C": {
+        "de": "Milch",
+        "hr": "mlijeko",
+        "en": "milk"
+      },
+      "D": {
+        "de": "enthält Schwefeldioxid und Sulfite",
+        "hr": "sadrži sumporov dioksid i sulfite",
+        "en": "contains sulphur dioxide and sulphites"
+      },
+      "E": {
+        "de": "Soja",
+        "hr": "soja",
+        "en": "soy"
+      },
+      "F": {
+        "de": "Gluten",
+        "hr": "gluten",
+        "en": "gluten"
+      },
+      "G": {
+        "de": "Senf",
+        "hr": "senf",
+        "en": "mustard"
+      },
+      "H": {
+        "de": "Sesam",
+        "hr": "sezam",
+        "en": "sesame"
+      },
+      "I": {
+        "de": "Lupine",
+        "hr": "lupina",
+        "en": "lupin"
+      },
+      "J": {
+        "de": "Erdnüsse",
+        "hr": "kikiriki",
+        "en": "peanuts"
+      },
+      "K": {
+        "de": "Fisch",
+        "hr": "riba",
+        "en": "fish"
+      },
+      "L": {
+        "de": "Krebstiere",
+        "hr": "rakovi",
+        "en": "crustaceans"
+      },
+      "M": {
+        "de": "Weichtiere",
+        "hr": "mekušci",
+        "en": "molluscs"
+      },
+      "N": {
+        "de": "Schalenfrüchte",
+        "hr": "orašasti plodovi",
+        "en": "nuts"
+      },
+      "O": {
+        "de": "Eier",
+        "hr": "jaja",
+        "en": "eggs"
+      }
+    }
+  }
+}

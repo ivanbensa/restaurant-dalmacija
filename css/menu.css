@@ -1,0 +1,329 @@
+/* ===================== MENU HEADER ===================== */
+
+.menu-header-section {
+    position: relative;
+    isolation: isolate;
+    padding: 5rem 0 3.6rem;
+    background-color: transparent;
+}
+
+.menu-header-section::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 1.5rem 0 0 auto;
+    width: min(34vw, 30rem);
+    background: url("../images/decor/dalmatian-coast.svg") right bottom / contain no-repeat;
+    opacity: 0.15;
+    mask-image: linear-gradient(to right, transparent, #000 60%);
+    pointer-events: none;
+}
+
+.menu-main-title {
+    margin: 0.5rem 0 1.2rem;
+    color: var(--primary-color);
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2.4rem, 5vw, 4.1rem);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+    overflow-wrap: anywhere;
+}
+
+.menu-main-title::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 1px;
+    margin: 1.3rem auto 0;
+    background-color: var(--accent-color);
+}
+
+.menu-intro {
+    max-width: 42rem;
+    margin: 0 auto;
+    color: var(--muted-color);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* ===================== MENU CATEGORIES ===================== */
+
+.menu-categories-section {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0.85rem 0;
+    background-color: #fbf6ec;
+    border-top: 1px solid rgba(129, 103, 68, 0.14);
+    border-bottom: 1px solid rgba(129, 103, 68, 0.18);
+    box-shadow: 0 3px 14px rgba(64, 51, 31, 0.035);
+}
+
+.menu-categories {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 0.2rem;
+}
+
+.menu-categories::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-category-link {
+    flex-shrink: 0;
+    padding: 0.6rem 1.1rem;
+    border: 1px solid rgba(129, 103, 68, 0.24);
+    border-radius: 999rem;
+
+    color: var(--primary-color);
+    background-color: rgba(255, 253, 248, 0.8);
+
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    text-decoration: none;
+    white-space: nowrap;
+
+    transition:
+            background-color 0.3s ease,
+            color 0.3s ease,
+            border-color 0.3s ease;
+}
+
+.menu-category-link:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.menu-category-link.active,
+.menu-category-link.active:hover {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.menu-category-link:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 1px;
+}
+
+/* ===================== MENU CONTENT ===================== */
+
+.menu-content-section {
+    padding: 4.5rem 0 6rem;
+    background-color: transparent;
+}
+
+#menuContent {
+    max-width: 58rem;
+    margin: 0 auto;
+}
+
+.menu-category,
+.menu-category-section {
+    scroll-margin-top: var(--category-scroll-offset, 6rem);
+}
+
+.menu-category + .menu-category {
+    margin-top: 5rem;
+}
+
+.menu-category-title {
+    position: relative;
+    margin-bottom: 1.1rem;
+    padding-bottom: 1rem;
+
+    color: var(--primary-color);
+    border-bottom: 1px solid rgba(168, 33, 43, 0.24);
+
+    font-family: "Playfair Display", serif;
+    font-size: clamp(1.5rem, 2.5vw, 1.9rem);
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+.menu-category-title::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 3rem;
+    height: 2px;
+    background-color: var(--accent-color);
+}
+
+/* ===================== MENU ITEM ===================== */
+
+.menu-item {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid rgba(129, 103, 68, 0.18);
+}
+
+.menu-item-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.menu-item-info {
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+.menu-item-name {
+    margin: 0;
+    color: var(--text-color);
+    font-family: "Playfair Display", serif;
+    font-size: 1.18rem;
+    font-weight: 600;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+}
+
+.menu-item-description {
+    margin: 0.4rem 0 0;
+    color: var(--muted-color);
+    font-size: 0.92rem;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+}
+
+.menu-item-allergens {
+    display: inline-block;
+    margin-top: 0.4rem;
+
+    color: var(--accent-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.menu-item-price {
+    flex-shrink: 0;
+    padding-top: 0.15rem;
+    color: var(--primary-color);
+    font-size: 1.05rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+/* ===================== RESPONSIVE MENU ===================== */
+
+@media (max-width: 991.98px) {
+    .menu-header-section::before {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu-header-section {
+        padding: 3.3rem 0 2.6rem;
+    }
+
+    .menu-main-title {
+        font-size: clamp(2rem, 9vw, 2.65rem);
+    }
+
+    .menu-content-section {
+        padding: 3rem 0 5rem;
+    }
+
+    .menu-item-row {
+        gap: 0.85rem;
+    }
+
+    .menu-item-name {
+        font-size: 1.05rem;
+    }
+
+    .menu-item-price {
+        font-size: 0.95rem;
+    }
+
+    .menu-category + .menu-category {
+        margin-top: 3.5rem;
+    }
+}
+
+/* ===================== END OF MENU PAGE ===================== */
+
+/* ===================== MENU NOTES ===================== */
+
+.menu-notes {
+    margin-top: 6rem;
+    padding: 2.5rem;
+    background-color: rgba(255, 253, 247, 0.72);
+    border: 1px solid rgba(129, 103, 68, 0.23);
+    border-radius: 0.2rem;
+    box-shadow: 0 8px 28px rgba(64, 51, 31, 0.025);
+    overflow-wrap: anywhere;
+}
+
+.menu-notes-title {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+}
+
+.menu-price-note {
+    margin-bottom: 2rem;
+    color: var(--muted-color);
+    font-size: 0.92rem;
+    line-height: 1.7;
+}
+
+.menu-notes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 3rem;
+}
+
+.menu-notes-grid h3 {
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+    font-family: "Playfair Display", serif;
+    font-size: 1.3rem;
+}
+
+.menu-notes-grid ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-notes-grid li {
+    margin-bottom: 0.45rem;
+    color: var(--muted-color);
+    font-size: 0.86rem;
+    line-height: 1.65;
+}
+
+@media (max-width: 576px) {
+    .menu-notes {
+        padding: 1.5rem;
+    }
+
+    .menu-notes-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* ===================== END OF MENU NOTES ===================== */
+
+@media (prefers-reduced-motion: reduce) {
+    .menu-category-link {
+        transition: none;
+    }
+}

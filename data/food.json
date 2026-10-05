@@ -1,0 +1,1466 @@
+{
+  "categories": [
+    {
+      "id": "warme-vorspeisen",
+      "name": {
+        "de": "WARME VORSPEISEN",
+        "hr": "TOPLA PREDJELA",
+        "en": "HOT STARTERS"
+      },
+      "items": [
+        {
+          "id": 6,
+          "name": {
+            "de": "SCHAFSKÄSE VOM GRILL",
+            "hr": "OVČJI SIR S ROŠTILJA",
+            "en": "GRILLED SHEEP'S CHEESE"
+          },
+          "description": {
+            "de": "mit Knoblauch",
+            "hr": "s češnjakom",
+            "en": "with garlic"
+          },
+          "allergens": ["F", "I"],
+          "price": 11.5
+        },
+        {
+          "id": 8,
+          "name": {
+            "de": "CHAMPIGNON-OMELETTE",
+            "hr": "OMLET SA ŠAMPINJONIMA",
+            "en": "MUSHROOM OMELETTE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["I", "O"],
+          "price": 8.5
+        },
+        {
+          "id": 9,
+          "name": {
+            "de": "SCHINKEN-OMELETTE",
+            "hr": "OMLET SA ŠUNKOM",
+            "en": "HAM OMELETTE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["I", "O"],
+          "price": 8.5
+        },
+        {
+          "id": 10,
+          "name": {
+            "de": "KÄSE-OMELETTE",
+            "hr": "OMLET SA SIROM",
+            "en": "CHEESE OMELETTE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["F", "I", "O"],
+          "price": 8.5
+        }
+      ]
+    },
+    {
+      "id": "suppen",
+      "name": {
+        "de": "SUPPEN",
+        "hr": "JUHE",
+        "en": "SOUPS"
+      },
+      "items": [
+        {
+          "id": 11,
+          "name": {
+            "de": "TOMATENCREMESUPPE",
+            "hr": "KREM JUHA OD RAJČICE",
+            "en": "CREAM OF TOMATO SOUP"
+          },
+          "description": {
+            "de": "mit Sahnehaube",
+            "hr": "sa slatkim vrhnjem",
+            "en": "topped with cream"
+          },
+          "allergens": ["F"],
+          "price": 5.5
+        },
+        {
+          "id": 12,
+          "name": {
+            "de": "UNGARISCHE GULASCHSUPPE",
+            "hr": "MAĐARSKA GULAŠ JUHA",
+            "en": "HUNGARIAN GOULASH SOUP"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": [],
+          "price": 5.5
+        },
+        {
+          "id": 13,
+          "name": {
+            "de": "BOHNENSUPPE",
+            "hr": "JUHA OD GRAHA",
+            "en": "BEAN SOUP"
+          },
+          "description": {
+            "de": "mit magerem Speck",
+            "hr": "s nemasnom slaninom",
+            "en": "with lean bacon"
+          },
+          "allergens": [],
+          "price": 5.5
+        },
+        {
+          "id": 14,
+          "name": {
+            "de": "RINDERBOUILLON",
+            "hr": "GOVEĐA JUHA",
+            "en": "BEEF BOUILLON"
+          },
+          "description": {
+            "de": "mit Ei",
+            "hr": "s jajetom",
+            "en": "with egg"
+          },
+          "allergens": ["I"],
+          "price": 5.0
+        },
+        {
+          "id": 15,
+          "name": {
+            "de": "FRANZÖSISCHE ZWIEBELSUPPE",
+            "hr": "FRANCUSKA JUHA OD LUKA",
+            "en": "FRENCH ONION SOUP"
+          },
+          "description": {
+            "de": "mit Käse überbacken",
+            "hr": "zapečena sa sirom",
+            "en": "gratinated with cheese"
+          },
+          "allergens": ["F"],
+          "price": 6.5
+        }
+      ]
+    },
+    {
+      "id": "kleine-gaeste",
+      "name": {
+        "de": "FÜR UNSERE KLEINEN GÄSTE",
+        "hr": "ZA NAŠE MALE GOSTE",
+        "en": "FOR OUR YOUNGER GUESTS"
+      },
+      "items": [
+        {
+          "id": 17,
+          "name": {
+            "de": "KINDERSCHNITZEL „WIENER ART“",
+            "hr": "DJEČJI BEČKI ODREZAK",
+            "en": "CHILDREN'S VIENNESE-STYLE SCHNITZEL"
+          },
+          "description": {
+            "de": "kleines paniertes Schweineschnitzel mit Pommes frites",
+            "hr": "mali pohani svinjski odrezak s pomfritom",
+            "en": "small breaded pork schnitzel with French fries"
+          },
+          "allergens": ["C", "I", "O"],
+          "price": 8.5
+        },
+        {
+          "id": 18,
+          "name": {
+            "de": "KINDER-TELLER",
+            "hr": "DJEČJI TANJUR",
+            "en": "CHILDREN'S PLATE"
+          },
+          "description": {
+            "de": "1 kleines Schweinesteak und 1 Ćevap mit Pommes frites",
+            "hr": "1 mali svinjski odrezak i 1 ćevap s pomfritom",
+            "en": "1 small pork steak and 1 ćevap with French fries"
+          },
+          "allergens": [],
+          "price": 8.5
+        }
+      ]
+    },
+    {
+      "id": "kleine-gerichte",
+      "name": {
+        "de": "KLEINE GERICHTE",
+        "hr": "MALA JELA",
+        "en": "SMALL DISHES"
+      },
+      "items": [
+        {
+          "id": 20,
+          "name": {
+            "de": "KLEINE POLA-POLA",
+            "hr": "MALA POLA-POLA",
+            "en": "SMALL POLA-POLA"
+          },
+          "description": {
+            "de": "2 Schweinesteaks und 2 Ćevapčići mit Ðuvečreis und gemischtem Salat",
+            "hr": "2 svinjska odreska i 2 ćevapčića s đuveč rižom i miješanom salatom",
+            "en": "2 pork steaks and 2 ćevapčići with djuvec rice and mixed salad"
+          },
+          "allergens": [],
+          "price": 13.5
+        },
+        {
+          "id": 22,
+          "name": {
+            "de": "LEBER-TELLER",
+            "hr": "TANJUR S JETROM",
+            "en": "LIVER PLATE"
+          },
+          "description": {
+            "de": "2 Stück Schweineleber mit Röstzwiebeln, dazu Pommes frites und gemischter Salat",
+            "hr": "2 komada svinjske jetre s prženim lukom, uz pomfrit i miješanu salatu",
+            "en": "2 pieces of pork liver with fried onions, served with French fries and mixed salad"
+          },
+          "allergens": ["F"],
+          "price": 13.0
+        },
+        {
+          "id": 23,
+          "name": {
+            "de": "KLEINES SCHNITZEL „WIENER ART“",
+            "hr": "MALI BEČKI ODREZAK",
+            "en": "SMALL VIENNESE-STYLE SCHNITZEL"
+          },
+          "description": {
+            "de": "paniertes Schweineschnitzel mit Pommes frites und gemischtem Salat",
+            "hr": "pohani svinjski odrezak s pomfritom i miješanom salatom",
+            "en": "breaded pork schnitzel with French fries and mixed salad"
+          },
+          "allergens": ["C", "I", "O"],
+          "price": 13.5
+        },
+        {
+          "id": 24,
+          "name": {
+            "de": "KLEINE PUSZTA-PLATTE",
+            "hr": "MALI PUSZTA TANJUR",
+            "en": "SMALL PUSZTA PLATE"
+          },
+          "description": {
+            "de": "3 kleine Schweinesteaks mit Ðuvečreis und gemischtem Salat",
+            "hr": "3 mala svinjska odreska s đuveč rižom i miješanom salatom",
+            "en": "3 small pork steaks with djuvec rice and mixed salad"
+          },
+          "allergens": [],
+          "price": 13.5
+        },
+        {
+          "id": 25,
+          "name": {
+            "de": "KLEINE ĆEVAPČIĆI",
+            "hr": "MALI ĆEVAPČIĆI",
+            "en": "SMALL ĆEVAPČIĆI"
+          },
+          "description": {
+            "de": "4 würzige Hackfleischröllchen mit Ðuvečreis und gemischtem Salat",
+            "hr": "4 začinjena ćevapčića s đuveč rižom i miješanom salatom",
+            "en": "4 seasoned minced-meat rolls with djuvec rice and mixed salad"
+          },
+          "allergens": [],
+          "price": 13.0
+        },
+        {
+          "id": 26,
+          "name": {
+            "de": "KLEINE PLJESKAVICA",
+            "hr": "MALA PLJESKAVICA",
+            "en": "SMALL PLJESKAVICA"
+          },
+          "description": {
+            "de": "würziges Hackfleischsteak mit Ðuvečreis und gemischtem Salat",
+            "hr": "začinjena pljeskavica s đuveč rižom i miješanom salatom",
+            "en": "seasoned minced-meat steak with djuvec rice and mixed salad"
+          },
+          "allergens": [],
+          "price": 13.0
+        },
+        {
+          "id": 27,
+          "name": {
+            "de": "TRIO-PLATTE",
+            "hr": "TRIO TANJUR",
+            "en": "TRIO PLATE"
+          },
+          "description": {
+            "de": "1 Schweinesteak, 1 Currywurst und 1 Schaschlik mit Ðuvečreis und gemischtem Salat",
+            "hr": "1 svinjski odrezak, 1 curry kobasica i 1 ražnjić s đuveč rižom i miješanom salatom",
+            "en": "1 pork steak, 1 currywurst and 1 meat skewer with djuvec rice and mixed salad"
+          },
+          "allergens": ["E", "F"],
+          "price": 15.5
+        },
+        {
+          "id": 29,
+          "name": {
+            "de": "KLEINE GEFÜLLTE PLJESKAVICA",
+            "hr": "MALA PUNJENA PLJESKAVICA",
+            "en": "SMALL STUFFED PLJESKAVICA"
+          },
+          "description": {
+            "de": "kleines Hackfleischsteak gefüllt mit Schafskäse, dazu Ðuvečreis und gemischter Salat",
+            "hr": "mala pljeskavica punjena ovčjim sirom, uz đuveč rižu i miješanu salatu",
+            "en": "small minced-meat steak stuffed with sheep's cheese, served with djuvec rice and mixed salad"
+          },
+          "allergens": ["F"],
+          "price": 15.5
+        },
+        {
+          "id": 30,
+          "name": {
+            "de": "SCHASCHLIK",
+            "hr": "RAŽNJIĆ",
+            "en": "MEAT SKEWER"
+          },
+          "description": {
+            "de": "Schweinefleisch-Spieß mit Ðuvečreis oder Pommes frites und gemischtem Salat",
+            "hr": "svinjski ražnjić s đuveč rižom ili pomfritom i miješanom salatom",
+            "en": "pork skewer with djuvec rice or French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 11.0
+        },
+        {
+          "id": 31,
+          "name": {
+            "de": "CURRYWURST",
+            "hr": "CURRY KOBASICA",
+            "en": "CURRYWURST"
+          },
+          "description": {
+            "de": "mit Ðuvečreis oder Pommes frites und gemischtem Salat",
+            "hr": "s đuveč rižom ili pomfritom i miješanom salatom",
+            "en": "with djuvec rice or French fries and mixed salad"
+          },
+          "allergens": ["E", "F"],
+          "price": 9.0
+        },
+        {
+          "id": 32,
+          "name": {
+            "de": "KLEINER MIXED GRILL",
+            "hr": "MALI MIJEŠANI ROŠTILJ",
+            "en": "SMALL MIXED GRILL"
+          },
+          "description": {
+            "de": "1 Schweinesteak, 1 Pljeskavica, 1 Ćevap, 1 Stück Magerspeck und 1 Stück Schweineleber mit gemischtem Salat",
+            "hr": "1 svinjski odrezak, 1 pljeskavica, 1 ćevap, 1 komad nemasne slanine i 1 komad svinjske jetre s miješanom salatom",
+            "en": "1 pork steak, 1 pljeskavica, 1 ćevap, 1 piece of lean bacon and 1 piece of pork liver with mixed salad"
+          },
+          "allergens": ["D", "F"],
+          "price": 15.5
+        },
+        {
+          "id": 33,
+          "name": {
+            "de": "KLEINER MEDAILLON-TELLER",
+            "hr": "MALI TANJUR S MEDALJONIMA",
+            "en": "SMALL MEDALLION PLATE"
+          },
+          "description": {
+            "de": "2 Schweinefiletmedaillons mit Champignon-Rahmsauce, dazu Pommes frites und gemischter Salat",
+            "hr": "2 medaljona od svinjskog filea s umakom od šampinjona i vrhnja, uz pomfrit i miješanu salatu",
+            "en": "2 pork fillet medallions with creamy mushroom sauce, served with French fries and mixed salad"
+          },
+          "allergens": ["4", "F"],
+          "price": 15.5
+        }
+      ]
+    },
+    {
+      "id": "grillspezialitaeten",
+      "name": {
+        "de": "GRILLSPEZIALITÄTEN",
+        "hr": "SPECIJALITETI S ROŠTILJA",
+        "en": "GRILL SPECIALTIES"
+      },
+      "items": [
+        {
+          "id": 34,
+          "name": {
+            "de": "ZIGEUNER-TELLER",
+            "hr": "ZIGEUNER TANJUR",
+            "en": "ZIGEUNER PLATE"
+          },
+          "description": {
+            "de": "1 kleines Schnitzel, 1 Schweinekamm-Spieß, 1 Stück Schweineleber und 1 kleine Pljeskavica, dazu Ðuvečreis, Pommes frites und gemischter Salat",
+            "hr": "1 mali odrezak, 1 ražnjić od svinjskog vrata, 1 komad svinjske jetre i 1 mala pljeskavica, uz đuveč rižu, pomfrit i miješanu salatu",
+            "en": "1 small schnitzel, 1 pork neck skewer, 1 piece of pork liver and 1 small pljeskavica, served with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": ["A", "I", "O"],
+          "price": 18.0
+        },
+        {
+          "id": 35,
+          "name": {
+            "de": "HAUS-TELLER",
+            "hr": "KUĆNI TANJUR",
+            "en": "HOUSE PLATE"
+          },
+          "description": {
+            "de": "1 kleines Wiener Schnitzel, 2 Ćevapčići, 1 Schweinekamm-Spieß, 1 kleines Rumpsteak und 1 Stück Magerspeck, dazu Ðuvečreis, Pommes frites und gemischter Salat",
+            "hr": "1 mali bečki odrezak, 2 ćevapčića, 1 ražnjić od svinjskog vrata, 1 mali ramstek i 1 komad nemasne slanine, uz đuveč rižu, pomfrit i miješanu salatu",
+            "en": "1 small Viennese-style schnitzel, 2 ćevapčići, 1 pork neck skewer, 1 small rump steak and 1 piece of lean bacon, served with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": ["C", "D", "I", "O"],
+          "price": 19.5
+        },
+        {
+          "id": 36,
+          "name": {
+            "de": "MIXED GRILL",
+            "hr": "MIJEŠANI ROŠTILJ",
+            "en": "MIXED GRILL"
+          },
+          "description": {
+            "de": "1 Schweinesteak, 1 Pljeskavica, 1 Stück Magerspeck, 2 Ćevapčići, 1 Stück Schweineleber, dazu Reis und gemischter Salat",
+            "hr": "1 svinjski odrezak, 1 pljeskavica, 1 komad nemasne slanine, 2 ćevapčića i 1 komad svinjske jetre, uz rižu i miješanu salatu",
+            "en": "1 pork steak, 1 pljeskavica, 1 piece of lean bacon, 2 ćevapčići and 1 piece of pork liver, served with rice and mixed salad"
+          },
+          "allergens": ["D", "F"],
+          "price": 19.0
+        },
+        {
+          "id": 37,
+          "name": {
+            "de": "GRILL-TELLER",
+            "hr": "ROŠTILJ TANJUR",
+            "en": "GRILL PLATE"
+          },
+          "description": {
+            "de": "2 Schweinesteaks, 1 kleines Rumpsteak und 2 Ćevapčići, dazu Ðuvečreis, Pommes frites und gemischter Salat",
+            "hr": "2 svinjska odreska, 1 mali ramstek i 2 ćevapčića, uz đuveč rižu, pomfrit i miješanu salatu",
+            "en": "2 pork steaks, 1 small rump steak and 2 ćevapčići, served with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 19.0
+        },
+        {
+          "id": 38,
+          "name": {
+            "de": "POLA-POLA",
+            "hr": "POLA-POLA",
+            "en": "POLA-POLA"
+          },
+          "description": {
+            "de": "4 Schweinesteaks und 4 Ćevapčići, dazu Ðuvečreis, Pommes frites und gemischter Salat",
+            "hr": "4 svinjska odreska i 4 ćevapčića, uz đuveč rižu, pomfrit i miješanu salatu",
+            "en": "4 pork steaks and 4 ćevapčići, served with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 17.5
+        },
+        {
+          "id": 40,
+          "name": {
+            "de": "RAŽNJIĆI-SPIEßE",
+            "hr": "RAŽNJIĆI",
+            "en": "RAŽNJIĆI SKEWERS"
+          },
+          "description": {
+            "de": "2 Schweinekamm-Spieße mit Ðuvečreis, Pommes frites und gemischtem Salat",
+            "hr": "2 ražnjića od svinjskog vrata s đuveč rižom, pomfritom i miješanom salatom",
+            "en": "2 pork neck skewers with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 17.5
+        },
+        {
+          "id": 41,
+          "name": {
+            "de": "ĆEVAPČIĆI",
+            "hr": "ĆEVAPČIĆI",
+            "en": "ĆEVAPČIĆI"
+          },
+          "description": {
+            "de": "8 würzige Hackfleischröllchen mit Ðuvečreis, Pommes frites und gemischtem Salat",
+            "hr": "8 začinjenih ćevapčića s đuveč rižom, pomfritom i miješanom salatom",
+            "en": "8 seasoned minced-meat rolls with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 17.5
+        },
+        {
+          "id": 42,
+          "name": {
+            "de": "PUSZTA-PLATTE",
+            "hr": "PUSZTA TANJUR",
+            "en": "PUSZTA PLATE"
+          },
+          "description": {
+            "de": "4 Schweinesteaks mit Ðuvečreis, Pommes frites und gemischtem Salat",
+            "hr": "4 svinjska odreska s đuveč rižom, pomfritom i miješanom salatom",
+            "en": "4 pork steaks with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 17.5
+        },
+        {
+          "id": 43,
+          "name": {
+            "de": "POTPOURRI-PLATTE",
+            "hr": "POTPOURRI TANJUR",
+            "en": "POTPOURRI PLATE"
+          },
+          "description": {
+            "de": "1 Stück Schweineleber, 1 Hacksteak und 1 Schweinesteak mit Ðuvečreis, Pommes frites und gemischtem Salat",
+            "hr": "1 komad svinjske jetre, 1 odrezak od mljevenog mesa i 1 svinjski odrezak s đuveč rižom, pomfritom i miješanom salatom",
+            "en": "1 piece of pork liver, 1 minced-meat steak and 1 pork steak with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 17.0
+        },
+        {
+          "id": 44,
+          "name": {
+            "de": "RÄUBER-PLATTE",
+            "hr": "RAZBOJNIČKI TANJUR",
+            "en": "ROBBER'S PLATE"
+          },
+          "description": {
+            "de": "1 Schweinefleisch-Spieß, 1 Schweinesteak, 2 Ćevapčići und 1 kleines Hacksteak mit Ðuvečreis, Pommes frites und gemischtem Salat",
+            "hr": "1 svinjski ražnjić, 1 svinjski odrezak, 2 ćevapčića i 1 mali odrezak od mljevenog mesa s đuveč rižom, pomfritom i miješanom salatom",
+            "en": "1 pork skewer, 1 pork steak, 2 ćevapčići and 1 small minced-meat steak with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 17.0
+        },
+        {
+          "id": 45,
+          "name": {
+            "de": "GUSARSKI-SPIEß",
+            "hr": "GUSARSKI RAŽNJIĆ",
+            "en": "PIRATE SKEWER"
+          },
+          "description": {
+            "de": "2 Schweinesteaks und 2 kleine Rumpsteaks mit Ðuvečreis, Pommes frites und gemischtem Salat",
+            "hr": "2 svinjska odreska i 2 mala ramsteka s đuveč rižom, pomfritom i miješanom salatom",
+            "en": "2 pork steaks and 2 small rump steaks with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 18.5
+        },
+        {
+          "id": 46,
+          "name": {
+            "de": "GEFÜLLTE PLJESKAVICA",
+            "hr": "PUNJENA PLJESKAVICA",
+            "en": "STUFFED PLJESKAVICA"
+          },
+          "description": {
+            "de": "würziges Hacksteak gefüllt mit Schafskäse, dazu Ðuvečreis, Pommes frites und gemischter Salat",
+            "hr": "začinjena pljeskavica punjena ovčjim sirom, uz đuveč rižu, pomfrit i miješanu salatu",
+            "en": "seasoned minced-meat steak stuffed with sheep's cheese, served with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": ["F"],
+          "price": 18.0
+        },
+        {
+          "id": 47,
+          "name": {
+            "de": "PLJESKAVICA",
+            "hr": "PLJESKAVICA",
+            "en": "PLJESKAVICA"
+          },
+          "description": {
+            "de": "würziges Hacksteak mit Ðuvečreis, Pommes frites und Salat",
+            "hr": "začinjena pljeskavica s đuveč rižom, pomfritom i salatom",
+            "en": "seasoned minced-meat steak with djuvec rice, French fries and salad"
+          },
+          "allergens": [],
+          "price": 16.5
+        },
+        {
+          "id": 48,
+          "name": {
+            "de": "PLJESKAVICA MIT BOHNEN",
+            "hr": "PLJESKAVICA S GRAHOM",
+            "en": "PLJESKAVICA WITH BEANS"
+          },
+          "description": {
+            "de": "würziges Hacksteak mit weißen Bohnen und gemischtem Salat",
+            "hr": "začinjena pljeskavica s bijelim grahom i miješanom salatom",
+            "en": "seasoned minced-meat steak with white beans and mixed salad"
+          },
+          "allergens": ["B", "C", "E", "F", "G", "O"],
+          "price": 17.5
+        },
+        {
+          "id": 50,
+          "name": {
+            "de": "ZIGEUNER-SPIEß",
+            "hr": "ZIGEUNER RAŽNJIĆ",
+            "en": "ZIGEUNER SKEWER"
+          },
+          "description": {
+            "de": "2 Schweinesteaks, 1 kleines Rumpsteak und 2 Stück Magerspeck mit Ðuvečreis, Pommes frites und gemischtem Salat",
+            "hr": "2 svinjska odreska, 1 mali ramstek i 2 komada nemasne slanine s đuveč rižom, pomfritom i miješanom salatom",
+            "en": "2 pork steaks, 1 small rump steak and 2 pieces of lean bacon with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": ["D"],
+          "price": 19.5
+        },
+        {
+          "id": 51,
+          "name": {
+            "de": "VESELI DALMATINAC",
+            "hr": "VESELI DALMATINAC",
+            "en": "VESELI DALMATINAC"
+          },
+          "description": {
+            "de": "Rumpsteak gefüllt mit Kochschinken und Käse, dazu Gemüse, Pommes frites und gemischter Salat",
+            "hr": "ramstek punjen kuhanom šunkom i sirom, uz povrće, pomfrit i miješanu salatu",
+            "en": "rump steak stuffed with cooked ham and cheese, served with vegetables, French fries and mixed salad"
+          },
+          "allergens": ["C", "F"],
+          "price": 28.0
+        },
+        {
+          "id": 52,
+          "name": {
+            "de": "SAMOBORSKI",
+            "hr": "SAMOBORSKI",
+            "en": "SAMOBORSKI"
+          },
+          "description": {
+            "de": "2 Schweinesteaks mit Knoblauchsauce, dazu Butterreis und gemischter Salat",
+            "hr": "2 svinjska odreska s umakom od češnjaka, uz rižu s maslacem i miješanu salatu",
+            "en": "2 pork steaks with garlic sauce, served with buttered rice and mixed salad"
+          },
+          "allergens": [],
+          "price": 17.5
+        },
+        {
+          "id": 54,
+          "name": {
+            "de": "DALMACIJA-TELLER",
+            "hr": "DALMACIJA TANJUR",
+            "en": "DALMACIJA PLATE"
+          },
+          "description": {
+            "de": "1 Schweinesteak, 1 Pljeskavica, 1 Stück Schweineleber und 1 Stück Magerspeck mit Ðuvečreis, Gemüse und Salat",
+            "hr": "1 svinjski odrezak, 1 pljeskavica, 1 komad svinjske jetre i 1 komad nemasne slanine s đuveč rižom, povrćem i salatom",
+            "en": "1 pork steak, 1 pljeskavica, 1 piece of pork liver and 1 piece of lean bacon with djuvec rice, vegetables and salad"
+          },
+          "allergens": ["D"],
+          "price": 18.5
+        },
+        {
+          "id": 58,
+          "name": {
+            "de": "GEGRILLTE SCHWEINELEBER",
+            "hr": "SVINJSKA JETRA S ROŠTILJA",
+            "en": "GRILLED PORK LIVER"
+          },
+          "description": {
+            "de": "mit Röstzwiebeln oder Knoblauch, dazu Pommes frites und gemischter Salat",
+            "hr": "s prženim lukom ili češnjakom, uz pomfrit i miješanu salatu",
+            "en": "with fried onions or garlic, served with French fries and mixed salad"
+          },
+          "allergens": ["F"],
+          "price": 16.5
+        },
+        {
+          "id": 61,
+          "name": {
+            "de": "RUMPSTEAK VOM GRILL",
+            "hr": "RAMSTEK S ROŠTILJA",
+            "en": "GRILLED RUMP STEAK"
+          },
+          "description": {
+            "de": "dazu Gemüse, Pommes frites und gemischter Salat",
+            "hr": "uz povrće, pomfrit i miješanu salatu",
+            "en": "served with vegetables, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 26.5
+        },
+        {
+          "id": 63,
+          "name": {
+            "de": "MAKARSKA-PLATTE FÜR 2 PERSONEN",
+            "hr": "MAKARSKA TANJUR ZA 2 OSOBE",
+            "en": "MAKARSKA PLATE FOR 2"
+          },
+          "description": {
+            "de": "2 Ražnjići-Spieße, 2 kleine Pariser Schnitzel, 4 Ćevapčići und 2 Stück Magerspeck mit Gemüse, Ðuvečreis, Pommes frites und gemischtem Salat",
+            "hr": "2 ražnjića, 2 mala pariška odreska, 4 ćevapčića i 2 komada nemasne slanine s povrćem, đuveč rižom, pomfritom i miješanom salatom",
+            "en": "2 ražnjići skewers, 2 small Parisian-style schnitzels, 4 ćevapčići and 2 pieces of lean bacon with vegetables, djuvec rice, French fries and mixed salad"
+          },
+          "allergens": ["C", "D", "I", "O"],
+          "price": 40.0
+        },
+        {
+          "id": 64,
+          "name": {
+            "de": "CROATIA-PLATTE FÜR 2 PERSONEN",
+            "hr": "CROATIA TANJUR ZA 2 OSOBE",
+            "en": "CROATIA PLATE FOR 2"
+          },
+          "description": {
+            "de": "2 kleine Rumpsteaks, 2 Schnitzel „Wiener Art“, 4 Ćevapčići und 2 Stück Schweineleber mit Gemüse, Ðuvečreis, Pommes frites und gemischtem Salat",
+            "hr": "2 mala ramsteka, 2 bečka odreska, 4 ćevapčića i 2 komada svinjske jetre s povrćem, đuveč rižom, pomfritom i miješanom salatom",
+            "en": "2 small rump steaks, 2 Viennese-style schnitzels, 4 ćevapčići and 2 pieces of pork liver with vegetables, djuvec rice, French fries and mixed salad"
+          },
+          "allergens": ["C", "I", "O"],
+          "price": 42.0
+        },
+        {
+          "id": 66,
+          "name": {
+            "de": "DALMACIJA-PLATTE FÜR 4 PERSONEN",
+            "hr": "DALMACIJA TANJUR ZA 4 OSOBE",
+            "en": "DALMACIJA PLATE FOR 4"
+          },
+          "description": {
+            "de": "4 kleine Rumpsteaks, 4 Schnitzel „Wiener Art“, 8 Ćevapčići und 4 Stück Schweineleber mit Gemüse, Ðuvečreis, Pommes frites und gemischtem Salat",
+            "hr": "4 mala ramsteka, 4 bečka odreska, 8 ćevapčića i 4 komada svinjske jetre s povrćem, đuveč rižom, pomfritom i miješanom salatom",
+            "en": "4 small rump steaks, 4 Viennese-style schnitzels, 8 ćevapčići and 4 pieces of pork liver with vegetables, djuvec rice, French fries and mixed salad"
+          },
+          "allergens": ["C", "I", "O"],
+          "price": 74.0
+        }
+      ]
+    },
+    {
+      "id": "spezial-topfgerichte",
+      "name": {
+        "de": "SPEZIAL-TOPFGERICHTE",
+        "hr": "POSEBNA JELA IZ LONCA",
+        "en": "SPECIAL POT DISHES"
+      },
+      "items": [
+        {
+          "id": 69,
+          "name": {
+            "de": "MEDAILLON-TELLER MIT CHAMPIGNONS",
+            "hr": "TANJUR S MEDALJONIMA I ŠAMPINJONIMA",
+            "en": "MEDALLION PLATE WITH MUSHROOMS"
+          },
+          "description": {
+            "de": "4 Schweinefiletmedaillons mit Champignon-Rahmsauce, Pommes frites und gemischtem Salat",
+            "hr": "4 medaljona od svinjskog filea s umakom od šampinjona i vrhnja, pomfritom i miješanom salatom",
+            "en": "4 pork fillet medallions with creamy mushroom sauce, French fries and mixed salad"
+          },
+          "allergens": ["4", "F"],
+          "price": 19.9
+        },
+        {
+          "id": 70,
+          "name": {
+            "de": "HAJDUČKI-SPIEß",
+            "hr": "HAJDUČKI RAŽNJIĆ",
+            "en": "HAJDUČKI SKEWER"
+          },
+          "description": {
+            "de": "Schweinefilet mit Speck, Paprika und Zwiebeln, dazu Ðuvečreis, Pommes frites und gemischter Salat",
+            "hr": "svinjski file sa slaninom, paprikom i lukom, uz đuveč rižu, pomfrit i miješanu salatu",
+            "en": "pork fillet with bacon, peppers and onions, served with djuvec rice, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 19.9
+        },
+        {
+          "id": 75,
+          "name": {
+            "de": "KALBS GULASCH",
+            "hr": "TELEĆI GULAŠ",
+            "en": "VEAL GOULASH"
+          },
+          "description": {
+            "de": "vom Rind, dazu Salzkartoffeln und gemischter Salat",
+            "hr": "od govedine, uz kuhani krumpir i miješanu salatu",
+            "en": "made from beef, served with boiled potatoes and mixed salad"
+          },
+          "allergens": [],
+          "price": 17.5
+        },
+        {
+          "id": 77,
+          "name": {
+            "de": "SATARAŠ",
+            "hr": "SATARAŠ",
+            "en": "SATARAŠ"
+          },
+          "description": {
+            "de": "geschnetzeltes Schweinefleisch mit Tomaten, Paprika und Ei (sehr scharf), dazu Reis und gemischter Salat",
+            "hr": "narezana svinjetina s rajčicom, paprikom i jajetom (vrlo ljuto), uz rižu i miješanu salatu",
+            "en": "sliced pork with tomatoes, peppers and egg (very spicy), served with rice and mixed salad"
+          },
+          "allergens": ["I", "O"],
+          "price": 18.0
+        },
+        {
+          "id": 78,
+          "name": {
+            "de": "MUĆKALICA",
+            "hr": "MUĆKALICA",
+            "en": "MUĆKALICA"
+          },
+          "description": {
+            "de": "geschnetzeltes Schweinefleisch mit Zwiebeln und Paprika, dazu Reis und gemischter Salat",
+            "hr": "narezana svinjetina s lukom i paprikom, uz rižu i miješanu salatu",
+            "en": "sliced pork with onions and peppers, served with rice and mixed salad"
+          },
+          "allergens": [],
+          "price": 17.0
+        },
+        {
+          "id": 79,
+          "name": {
+            "de": "DALMATINISCHE PFANNE",
+            "hr": "DALMATINSKA TAVA",
+            "en": "DALMATIAN PAN DISH"
+          },
+          "description": {
+            "de": "geschnetzeltes Schweinefleisch mit Zwiebeln, Paprika und Tomaten, mit Käse überbacken, dazu Reis und gemischter Salat",
+            "hr": "narezana svinjetina s lukom, paprikom i rajčicom, zapečena sa sirom, uz rižu i miješanu salatu",
+            "en": "sliced pork with onions, peppers and tomatoes, baked with cheese, served with rice and mixed salad"
+          },
+          "allergens": ["C", "F"],
+          "price": 19.5
+        }
+      ]
+    },
+    {
+      "id": "internationale-gerichte",
+      "name": {
+        "de": "INTERNATIONALE GERICHTE",
+        "hr": "INTERNACIONALNA JELA",
+        "en": "INTERNATIONAL DISHES"
+      },
+      "items": [
+        {
+          "id": 80,
+          "name": {
+            "de": "PFEFFER-STEAK",
+            "hr": "BIFTEK S PAPROM",
+            "en": "PEPPER STEAK"
+          },
+          "description": {
+            "de": "Rinderfiletsteak mit Pfeffersauce, dazu Gemüse, Pommes frites und gemischter Salat",
+            "hr": "goveđi file s umakom od papra, uz povrće, pomfrit i miješanu salatu",
+            "en": "beef fillet steak with pepper sauce, served with vegetables, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 27.5
+        },
+        {
+          "id": 88,
+          "name": {
+            "de": "SCHNITZEL À LA CORDON BLEU",
+            "hr": "CORDON BLEU",
+            "en": "CORDON BLEU"
+          },
+          "description": {
+            "de": "paniertes Schweineschnitzel gefüllt mit Schinken und Käse, dazu Gemüse, Pommes frites und gemischter Salat",
+            "hr": "pohani svinjski odrezak punjen šunkom i sirom, uz povrće, pomfrit i miješanu salatu",
+            "en": "breaded pork schnitzel stuffed with ham and cheese, served with vegetables, French fries and mixed salad"
+          },
+          "allergens": ["C", "F", "O"],
+          "price": 20.5
+        },
+        {
+          "id": 89,
+          "name": {
+            "de": "ZAGREB-SCHNITZEL",
+            "hr": "ZAGREBAČKI ODREZAK",
+            "en": "ZAGREB SCHNITZEL"
+          },
+          "description": {
+            "de": "Schweineschnitzel gefüllt mit Schinken, dazu Gemüse, Pommes frites und gemischter Salat",
+            "hr": "svinjski odrezak punjen šunkom, uz povrće, pomfrit i miješanu salatu",
+            "en": "pork schnitzel stuffed with ham, served with vegetables, French fries and mixed salad"
+          },
+          "allergens": [],
+          "price": 19.5
+        },
+        {
+          "id": 90,
+          "name": {
+            "de": "JÄGER-SCHNITZEL NATUR",
+            "hr": "NARAVNI LOVAČKI ODREZAK",
+            "en": "JÄGER-STYLE PORK SCHNITZEL"
+          },
+          "description": {
+            "de": "Schweineschnitzel mit Champignon-Rahmsauce, dazu Reis und gemischter Salat",
+            "hr": "svinjski odrezak s umakom od šampinjona i vrhnja, uz rižu i miješanu salatu",
+            "en": "pork schnitzel with creamy mushroom sauce, served with rice and mixed salad"
+          },
+          "allergens": [],
+          "price": 18.5
+        },
+        {
+          "id": 95,
+          "name": {
+            "de": "SCHNITZEL „WIENER ART“",
+            "hr": "BEČKI ODREZAK",
+            "en": "VIENNESE-STYLE SCHNITZEL"
+          },
+          "description": {
+            "de": "paniertes Schweineschnitzel mit Pommes frites und gemischtem Salat",
+            "hr": "pohani svinjski odrezak s pomfritom i miješanom salatom",
+            "en": "breaded pork schnitzel with French fries and mixed salad"
+          },
+          "allergens": ["C", "F", "O"],
+          "price": 16.5
+        },
+        {
+          "id": 96,
+          "name": {
+            "de": "SCHNITZEL „WIENER ART“ MIT CHAMPIGNONS",
+            "hr": "BEČKI ODREZAK SA ŠAMPINJONIMA",
+            "en": "VIENNESE-STYLE SCHNITZEL WITH MUSHROOMS"
+          },
+          "description": {
+            "de": "paniertes Schweineschnitzel mit Champignon-Rahmsauce, dazu Pommes frites und gemischtem Salat",
+            "hr": "pohani svinjski odrezak s umakom od šampinjona i vrhnja, uz pomfrit i miješanu salatu",
+            "en": "breaded pork schnitzel with creamy mushroom sauce, served with French fries and mixed salad"
+          },
+          "allergens": ["4", "C", "I", "O"],
+          "price": 19.5
+        },
+        {
+          "id": 97,
+          "name": {
+            "de": "GESCHNETZELTES SCHWEINEFILET",
+            "hr": "NAREZANI SVINJSKI FILE",
+            "en": "SLICED PORK FILLET"
+          },
+          "description": {
+            "de": "mit Champignon-Rahmsauce, dazu Kroketten und gemischter Salat",
+            "hr": "s umakom od šampinjona i vrhnja, uz krokete i miješanu salatu",
+            "en": "with creamy mushroom sauce, served with croquettes and mixed salad"
+          },
+          "allergens": ["4"],
+          "price": 18.0
+        }
+      ]
+    },
+    {
+      "id": "fischgerichte",
+      "name": {
+        "de": "FISCHGERICHTE",
+        "hr": "RIBLJA JELA",
+        "en": "FISH DISHES"
+      },
+      "items": [
+        {
+          "id": 99,
+          "name": {
+            "de": "SCHOLLENFILET GEBRATEN",
+            "hr": "PRŽENI FILE IVERKA",
+            "en": "FRIED PLAICE FILLET"
+          },
+          "description": {
+            "de": "mit Salzkartoffeln und gemischtem Salat",
+            "hr": "s kuhanim krumpirom i miješanom salatom",
+            "en": "with boiled potatoes and mixed salad"
+          },
+          "allergens": ["E", "F", "I", "K", "L"],
+          "price": 18.0
+        },
+        {
+          "id": 100,
+          "name": {
+            "de": "SCAMPI",
+            "hr": "ŠKAMPI",
+            "en": "SCAMPI"
+          },
+          "description": {
+            "de": "Großgarnelen mit Knoblauchsauce, dazu Salzkartoffeln und gemischter Salat",
+            "hr": "velike kozice s umakom od češnjaka, uz kuhani krumpir i miješanu salatu",
+            "en": "king prawns with garlic sauce, served with boiled potatoes and mixed salad"
+          },
+          "allergens": ["A", "E", "F", "I", "K", "L"],
+          "price": 25.0
+        },
+        {
+          "id": 101,
+          "name": {
+            "de": "FORELLE BLAU ODER GEBRATEN",
+            "hr": "PASTRVA KUHANA ILI PRŽENA",
+            "en": "TROUT, POACHED OR FRIED"
+          },
+          "description": {
+            "de": "dazu Salzkartoffeln und gem. Salat (ganzer Fisch mit Gräten)",
+            "hr": "uz kuhani krumpir i miješanu salatu (cijela riba s kostima)",
+            "en": "served with boiled potatoes and mixed salad (whole fish with bones)"
+          },
+          "allergens": [],
+          "price": 17.5
+        },
+        {
+          "id": 102,
+          "name": {
+            "de": "ZANDERFILET GEBRATEN",
+            "hr": "PRŽENI FILE SMUĐA",
+            "en": "FRIED PIKE-PERCH FILLET"
+          },
+          "description": {
+            "de": "dazu Salzkartoffeln und gem. Salat",
+            "hr": "uz kuhani krumpir i miješanu salatu",
+            "en": "served with boiled potatoes and mixed salad"
+          },
+          "allergens": ["E", "F", "I", "K", "L"],
+          "price": 19.5
+        }
+      ]
+    },
+    {
+      "id": "beilagen",
+      "name": {
+        "de": "BEILAGEN",
+        "hr": "PRILOZI",
+        "en": "SIDE DISHES"
+      },
+      "items": [
+        {
+          "id": 103,
+          "name": {
+            "de": "SALZKARTOFFELN",
+            "hr": "KUHANI KRUMPIR",
+            "en": "BOILED POTATOES"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["C"],
+          "price": 4.0
+        },
+        {
+          "id": 104,
+          "name": {
+            "de": "POMMES FRITES",
+            "hr": "POMFRIT",
+            "en": "FRENCH FRIES"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": [],
+          "price": 4.0
+        },
+        {
+          "id": 105,
+          "name": {
+            "de": "ÐUVEČREIS",
+            "hr": "ĐUVEČ RIŽA",
+            "en": "DJUVEC RICE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": [],
+          "price": 4.0
+        },
+        {
+          "id": 107,
+          "name": {
+            "de": "PREBRANAC",
+            "hr": "PREBRANAC",
+            "en": "PREBRANAC"
+          },
+          "description": {
+            "de": "gebackene weiße Bohnen in Tomatensauce",
+            "hr": "zapečeni bijeli grah u umaku od rajčice",
+            "en": "baked white beans in tomato sauce"
+          },
+          "allergens": ["B", "C", "E", "F", "G", "O"],
+          "price": 5.0
+        }
+      ]
+    },
+    {
+      "id": "salate",
+      "name": {
+        "de": "SALATE",
+        "hr": "SALATE",
+        "en": "SALADS"
+      },
+      "items": [
+        {
+          "id": 109,
+          "name": {
+            "de": "GEMISCHTER SALAT",
+            "hr": "MIJEŠANA SALATA",
+            "en": "MIXED SALAD"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["E", "F", "I"],
+          "price": 4.0
+        },
+        {
+          "id": 110,
+          "name": {
+            "de": "GRÜNER SALAT",
+            "hr": "ZELENA SALATA",
+            "en": "GREEN SALAD"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["E", "F", "I"],
+          "price": 4.0
+        },
+        {
+          "id": 111,
+          "name": {
+            "de": "TOMATENSALAT",
+            "hr": "SALATA OD RAJČICE",
+            "en": "TOMATO SALAD"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["E", "F", "I"],
+          "price": 4.5
+        },
+        {
+          "id": 112,
+          "name": {
+            "de": "GRÜNE BOHNENSALAT",
+            "hr": "SALATA OD ZELENIH MAHUNA",
+            "en": "GREEN BEAN SALAD"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["4", "E", "F", "I"],
+          "price": 4.0
+        },
+        {
+          "id": 113,
+          "name": {
+            "de": "GURKENSALAT",
+            "hr": "SALATA OD KRASTAVACA",
+            "en": "CUCUMBER SALAD"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["E", "F", "I"],
+          "price": 4.0
+        },
+        {
+          "id": 114,
+          "name": {
+            "de": "KRAUTSALAT",
+            "hr": "SALATA OD KUPUSA",
+            "en": "CABBAGE SALAD"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["E", "F", "I"],
+          "price": 4.0
+        },
+        {
+          "id": 117,
+          "name": {
+            "de": "SALATPLATTE MIT",
+            "hr": "TANJUR SALATE S",
+            "en": "SALAD PLATE WITH"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": [],
+          "price": 12.0
+        },
+        {
+          "id": 118,
+          "name": {
+            "de": "SCHAFSKÄSE",
+            "hr": "OVČJI SIR",
+            "en": "SHEEP'S CHEESE"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["4", "E", "F", "I"],
+          "price": 11.0
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": {
+        "de": "DESSERTS",
+        "hr": "DESERTI",
+        "en": "DESSERTS"
+      },
+      "items": [
+        {
+          "id": 401,
+          "name": {
+            "de": "GEMISCHTES EIS",
+            "hr": "MIJEŠANI SLADOLED",
+            "en": "MIXED ICE CREAM"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["1"],
+          "price": 4.5
+        },
+        {
+          "id": 402,
+          "name": {
+            "de": "GEMISCHTES EIS 1 MIT SAHNE",
+            "hr": "MIJEŠANI SLADOLED 1 SA ŠLAGOM",
+            "en": "MIXED ICE CREAM 1 WITH WHIPPED CREAM"
+          },
+          "description": {
+            "de": "",
+            "hr": "",
+            "en": ""
+          },
+          "allergens": ["7"],
+          "price": 5.0
+        },
+        {
+          "id": 404,
+          "name": {
+            "de": "BANANEN-SPLIT",
+            "hr": "BANANA SPLIT",
+            "en": "BANANA SPLIT"
+          },
+          "description": {
+            "de": "Banane mit Vanille-Eiscreme 1, Sahne 7 und Schokosauce",
+            "hr": "banana sa sladoledom od vanilije 1, šlagom 7 i čokoladnim umakom",
+            "en": "banana with vanilla ice cream 1, whipped cream 7 and chocolate sauce"
+          },
+          "allergens": [],
+          "price": 8.0
+        },
+        {
+          "id": 405,
+          "name": {
+            "de": "COUPE DÄNEMARK",
+            "hr": "COUPE DÄNEMARK",
+            "en": "COUPE DÄNEMARK"
+          },
+          "description": {
+            "de": "Vanille-Eiscreme 1 mit Sahne 7 und Schokosauce",
+            "hr": "sladoled od vanilije 1 sa šlagom 7 i čokoladnim umakom",
+            "en": "vanilla ice cream 1 with whipped cream 7 and chocolate sauce"
+          },
+          "allergens": [],
+          "price": 8.0
+        },
+        {
+          "id": 406,
+          "name": {
+            "de": "FRÜCHTEBECHER",
+            "hr": "VOĆNI KUP",
+            "en": "FRUIT SUNDAE"
+          },
+          "description": {
+            "de": "gemischte Eiscreme 1 mit buntem Früchtecocktail",
+            "hr": "miješani sladoled 1 s voćnim koktelom",
+            "en": "mixed ice cream 1 with fruit cocktail"
+          },
+          "allergens": [],
+          "price": 8.0
+        },
+        {
+          "id": 407,
+          "name": {
+            "de": "EIS & HEISS",
+            "hr": "SLADOLED S VRUĆIM MALINAMA",
+            "en": "ICE CREAM WITH HOT RASPBERRIES"
+          },
+          "description": {
+            "de": "Vanille-Eiscreme 1 mit heißen Himbeeren",
+            "hr": "sladoled od vanilije 1 s vrućim malinama",
+            "en": "vanilla ice cream 1 with hot raspberries"
+          },
+          "allergens": [],
+          "price": 8.0
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "title": {
+      "de": "Zusatzstoffe & Allergene",
+      "hr": "Aditivi i alergeni",
+      "en": "Additives & Allergens"
+    },
+    "additivesTitle": {
+      "de": "Zusatzstoffe",
+      "hr": "Aditivi",
+      "en": "Additives"
+    },
+    "allergensTitle": {
+      "de": "Allergene",
+      "hr": "Alergeni",
+      "en": "Allergens"
+    },
+
+      "priceNote": {
+        "de": "Alle Preise inklusive Bedienung und MwSt.",
+        "hr": "Sve cijene uključuju uslugu i PDV.",
+        "en": "All prices include service and VAT."
+      },
+      "additives": {
+        "1": {
+          "de": "mit Farbstoff",
+          "hr": "s bojilom",
+          "en": "with colouring"
+        },
+        "2": {
+          "de": "koffeinhaltig",
+          "hr": "sadrži kofein",
+          "en": "contains caffeine"
+        },
+        "3": {
+          "de": "chininhaltig",
+          "hr": "sadrži kinin",
+          "en": "contains quinine"
+        },
+        "4": {
+          "de": "mit Konservierungsstoff",
+          "hr": "s konzervansom",
+          "en": "with preservative"
+        },
+        "5": {
+          "de": "mit Antioxydationsmittel",
+          "hr": "s antioksidansom",
+          "en": "with antioxidant"
+        },
+        "7": {
+          "de": "mit Stickoxydul",
+          "hr": "s dušikovim oksidulom",
+          "en": "with nitrous oxide"
+        },
+        "8": {
+          "de": "mit Phosphat",
+          "hr": "s fosfatom",
+          "en": "with phosphate"
+        }
+      },
+      "allergens": {
+        "A": {
+          "de": "Milcheiweiß",
+          "hr": "mliječni proteini",
+          "en": "milk protein"
+        },
+        "B": {
+          "de": "Sellerie",
+          "hr": "celer",
+          "en": "celery"
+        },
+        "C": {
+          "de": "Milch",
+          "hr": "mlijeko",
+          "en": "milk"
+        },
+        "D": {
+          "de": "enthält Schwefeldioxid und Sulfite",
+          "hr": "sadrži sumporov dioksid i sulfite",
+          "en": "contains sulphur dioxide and sulphites"
+        },
+        "E": {
+          "de": "Soja",
+          "hr": "soja",
+          "en": "soy"
+        },
+        "F": {
+          "de": "Gluten",
+          "hr": "gluten",
+          "en": "gluten"
+        },
+        "G": {
+          "de": "Senf",
+          "hr": "senf",
+          "en": "mustard"
+        },
+        "H": {
+          "de": "Sesam",
+          "hr": "sezam",
+          "en": "sesame"
+        },
+        "I": {
+          "de": "Lupine",
+          "hr": "lupina",
+          "en": "lupin"
+        },
+        "J": {
+          "de": "Erdnüsse",
+          "hr": "kikiriki",
+          "en": "peanuts"
+        },
+        "K": {
+          "de": "Fisch",
+          "hr": "riba",
+          "en": "fish"
+        },
+        "L": {
+          "de": "Krebstiere",
+          "hr": "rakovi",
+          "en": "crustaceans"
+        },
+        "M": {
+          "de": "Weichtiere",
+          "hr": "mekušci",
+          "en": "molluscs"
+        },
+        "N": {
+          "de": "Schalenfrüchte",
+          "hr": "orašasti plodovi",
+          "en": "nuts"
+        },
+        "O": {
+          "de": "Eier",
+          "hr": "jaja",
+          "en": "eggs"
+        }
+      }
+    }
+    }

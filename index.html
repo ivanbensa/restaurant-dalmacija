@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
+    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title data-i18n="pageTitles.home">Restaurant Dalmacija | Kroatische Küche in Berlin</title>
+    <meta name="description" data-i18n-content="metaDescriptions.home" content="Restaurant Dalmacija in Berlin-Reinickendorf: kroatische Küche seit 1980. Entdecken Sie Speisen, Getränke, Öffnungszeiten und Kontakt.">
+    <link rel="icon" type="image/svg+xml" href="images/croatia_logo.svg">
+  </head>
+  <body class="index-page">
+  <a class="skip-link" data-i18n="accessibility.skipLink" href="#main-content">
+    Zum Hauptinhalt springen
+  </a>
+    <header>
+      <nav class="navbar navbar-expand-xl custom-navbar" aria-label="Hauptnavigation" data-i18n-aria-label="accessibility.mainNavigation">
+        <div class="container">
+
+          <!-- LOGO -->
+          <a
+            class="navbar-brand d-flex align-items-center gap-3"
+            href="index.html"
+          >
+            <img
+              src="images/croatia_logo.svg"
+              alt=""
+              width="42"
+            />
+            <span class="logo-text">Dalmacija</span>
+          </a>
+          <!-- END OF LOGO -->
+
+          <!-- MOBILE NAVBAR TOGGLER -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Navigation öffnen" data-i18n-aria-label="accessibility.openNavigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- END OF MOBILE NAVBAR TOGGLER -->
+
+          <!-- NAVIGATION LINKS -->
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto align-items-center gap-xl-3">
+              <li class="nav-item">
+                <a
+                        class="nav-link active"
+                        href="index.html"
+                        aria-current="page"
+                        data-i18n="nav.home"
+                >
+                  Willkommen
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                        class="nav-link"
+                        href="menu.html"
+                        data-i18n="nav.food"
+                >
+                  Speisekarte
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                        class="nav-link"
+                        href="drinks.html"
+                        data-i18n="nav.drinks"
+                >
+                  Getränkekarte
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                        class="nav-link"
+                        href="gallery.html"
+                        data-i18n="nav.gallery"
+                >
+                  Bildergalerie
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                        class="nav-link"
+                        href="#kontakt"
+                        data-i18n="nav.contact"
+                >
+                  Kontakt
+                </a>
+              </li>
+            </ul>
+            <!-- END OF NAVIGATION LINKS -->
+
+            <a class="navbar-reservation" href="tel:+49304134103"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 2v6m10-6v6M3 11h18M7 15h3m4 0h3m-10 3h3m4 0h3"/></svg><span data-i18n="hero.reservation">Tisch reservieren</span></a>
+            <!-- LANGUAGE SWITCHER -->
+            <div class="dropdown language-switcher ms-xl-4">
+              <button
+                      class="language-btn dropdown-toggle d-flex align-items-center gap-2" aria-label="Sprache wählen: Deutsch"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+              >
+                <img src="images/flags/de.svg" alt="">
+                <span>DE</span>
+              </button>
+
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <button
+                          type="button"
+                          class="dropdown-item d-flex align-items-center gap-2"
+                          data-lang="de" lang="de" aria-pressed="true"
+                          aria-label="Deutsch"
+                  >
+                    <img src="images/flags/de.svg" alt="">
+                    <span>Deutsch</span>
+                  </button>
+                </li>
+
+                <li>
+                  <button
+                          type="button"
+                          class="dropdown-item d-flex align-items-center gap-2"
+                          data-lang="hr" lang="hr" aria-pressed="false"
+                          aria-label="Hrvatski"
+                  >
+                    <img src="images/flags/hr.svg" alt="">
+                    <span>Hrvatski</span>
+                  </button>
+                </li>
+
+                <li>
+                  <button
+                          type="button"
+                          class="dropdown-item d-flex align-items-center gap-2"
+                          data-lang="en" lang="en" aria-pressed="false"
+                          aria-label="English"
+                  >
+                    <img src="images/flags/en.svg" alt="">
+                    <span>English</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- END OF LANGUAGE SWITCHER -->
+          </div>
+          <!-- END OF NAVIGATION -->
+        </div>
+      </nav>
+    </header>
+    <!-- ===================== END OF HEADER / NAVBAR ===================== -->
+
+  <main id="main-content" tabindex="-1">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <div class="hero-text">
+
+            <span
+                    class="hero-eyebrow"
+                    data-i18n="hero.eyebrow"
+            >
+                Restaurant
+            </span>
+
+          <h1 class="hero-title">
+            Dalmacija
+          </h1>
+
+          <p
+                  class="hero-subtitle"
+                  data-i18n="hero.subtitle"
+          >
+            Kroatische Spezialitäten seit 1980 in Berlin
+          </p>
+
+          <div class="hero-actions d-flex flex-wrap gap-3">
+
+            <a
+                    href="menu.html"
+                    class="btn hero-btn hero-btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 2v6m3-6v6M2 2v6c0 4 6 4 6 0M5 11v11M19 22V2c-5 3-6 11 0 11"/></svg><span data-i18n="hero.menu">Speisekarte ansehen</span></a>
+
+            <a
+                    href="#kontakt"
+                    class="btn hero-btn hero-btn-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 2v6m10-6v6M3 11h18M7 15h3m4 0h3m-10 3h3m4 0h3"/></svg><span data-i18n="hero.reservation">Tisch reservieren</span></a>
+
+          </div>
+
+        </div>
+        <p class="hero-signature" data-i18n="features.atmosphere.text">Ein Stück Dalmatien in Berlin</p>
+      </div>
+    </section>
+    <!-- ===================== END OF HERO ===================== -->
+
+    <!-- ===================== WELCOME / ABOUT ===================== -->
+    <section class="welcome-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <!-- TEXT -->
+          <div class="col-lg-6">
+            <p class="script-accent" data-i18n="design.welcomeScript">Herzlich willkommen</p>
+    <span
+            class="section-eyebrow"
+            data-i18n="welcome.eyebrow"
+    >
+        Willkommen im Restaurant Dalmacija
+    </span>
+
+            <h2
+                    class="section-title"
+                    data-i18n="welcome.title"
+            >
+              Traditionelle kroatische Küche seit 1980
+            </h2>
+
+            <p
+                    class="section-text"
+                    data-i18n="welcome.text1"
+            >
+              Seit über 40 Jahren verwöhnen wir unsere Gäste mit
+              traditionellen kroatischen Gerichten, frischen Zutaten
+              und einer gemütlichen Atmosphäre mitten in Berlin.
+            </p>
+
+            <p
+                    class="section-text"
+                    data-i18n="welcome.text2"
+            >
+              Entdecken Sie die Vielfalt der dalmatinischen Küche
+              und genießen Sie ein Stück Kroatien in Berlin.
+            </p>
+
+            <a
+                    href="#kontakt"
+                    class="welcome-link"
+                    data-i18n="welcome.link"
+            >
+              Mehr über uns
+            </a>
+          </div>
+
+          <!-- IMAGE -->
+          <div class="col-lg-6">
+            <div class="welcome-image-wrapper">
+              <img
+                      loading="lazy" decoding="async" src="images/specialties/fish.webp"
+                      alt="Ganzer gegrillter Fisch mit Kartoffeln und Zitrone" data-i18n-alt="images.specialtyFish"
+                      width="1280" height="853" class="img-fluid welcome-image"
+              >
+              <span class="welcome-image-caption script-accent" data-i18n="design.foodSignature">Mediterraner Genuss mit Tradition</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ===================== END OF WELCOME / ABOUT ===================== -->
+
+    <!-- ===================== FEATURES STRIP ===================== -->
+    <section class="features-strip">
+      <div class="container">
+        <div class="row g-0">
+
+          <div class="col-6 col-lg-3">
+            <div class="feature-item">
+              <i aria-hidden="true" data-lucide="utensils" class="feature-icon"></i>
+
+              <div>
+                <h3 data-i18n="features.recipes.title">
+                  Traditionelle Rezepte
+                </h3>
+
+                <p data-i18n="features.recipes.text">
+                  Seit 1980
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div class="feature-item">
+              <i aria-hidden="true" data-lucide="fish" class="feature-icon"></i>
+
+              <div>
+                <h3 data-i18n="features.fish.title">
+                  Frischer Fisch
+                </h3>
+
+                <p data-i18n="features.fish.text">
+                  Adriatischer Genuss
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div class="feature-item">
+              <i aria-hidden="true" data-lucide="wine" class="feature-icon"></i>
+
+              <div>
+                <h3 data-i18n="features.wine.title">
+                  Ausgewählte Weine
+                </h3>
+
+                <p data-i18n="features.wine.text">
+                  Kroatische & internationale Weine
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div class="feature-item">
+              <i aria-hidden="true" data-lucide="users" class="feature-icon"></i>
+
+              <div>
+                <h3 data-i18n="features.atmosphere.title">
+                  Gemütliche Atmosphäre
+                </h3>
+
+                <p data-i18n="features.atmosphere.text">
+                  Ein Stück Dalmatien in Berlin
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ===================== END OF FEATURES STRIP ===================== -->
+
+    <!-- ===================== SPECIALTIES ===================== -->
+    <section class="specialties-section">
+      <div class="container">
+
+        <div class="section-heading text-center">
+      <span
+              class="section-eyebrow"
+              data-i18n="specialties.eyebrow"
+      >
+        Unsere Küche
+      </span>
+
+          <h2
+                  class="section-title mx-auto"
+                  data-i18n="specialties.title"
+          >
+            Unsere Spezialitäten
+          </h2>
+          <div class="section-mark" aria-hidden="true"><span></span></div>
+
+          <p
+                  class="specialties-intro"
+                  data-i18n="specialties.intro"
+          >
+            Entdecken Sie einige unserer beliebtesten Gerichte
+            aus der kroatischen und dalmatinischen Küche.
+          </p>
+        </div>
+
+        <div class="row g-4 mt-4">
+
+          <!-- FISH -->
+          <div class="col-md-6 col-lg-4">
+            <article class="specialty-card">
+              <img
+                      loading="lazy" decoding="async" src="images/specialties/fish.webp"
+                      alt="Gegrillter ganzer Fisch mit Kartoffeln und Zitrone auf einem Teller" data-i18n-alt="images.specialtyFish"
+                      class="specialty-image"
+              >
+
+              <div class="specialty-content">
+                <h3 data-i18n="specialties.fish.title">
+                  Frischer Fisch
+                </h3>
+
+                <p data-i18n="specialties.fish.text">
+                  Frisch zubereitete Fischgerichte,
+                  inspiriert von der Adriaküste.
+                </p>
+                <a class="specialty-link" href="menu.html#fischgerichte"><span data-i18n="design.discover">Mehr entdecken</span><span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- GRILL -->
+          <div class="col-md-6 col-lg-4">
+            <article class="specialty-card">
+              <img
+                      loading="lazy" decoding="async" src="images/specialties/grill1.jpg"
+                      alt="Ćevapčići mit Reis, Käse, Zwiebeln und Gemüse auf einem Teller" data-i18n-alt="images.specialtyGrill"
+                      class="specialty-image"
+              >
+
+              <div class="specialty-content">
+                <h3 data-i18n="specialties.grill.title">
+                  Grillspezialitäten
+                </h3>
+
+                <p data-i18n="specialties.grill.text">
+                  Saftige Fleischgerichte und traditionelle
+                  Spezialitäten direkt vom Grill.
+                </p>
+                <a class="specialty-link" href="menu.html#grillspezialitaeten"><span data-i18n="design.discover">Mehr entdecken</span><span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- DALMATIAN CUISINE -->
+          <div class="col-md-6 col-lg-4">
+            <article class="specialty-card">
+              <img
+                      loading="lazy" decoding="async" src="images/specialties/dalmatian.webp"
+                      alt="Gebratener Oktopus mit Kartoffeln und Gemüse" data-i18n-alt="images.specialtyDalmatian"
+                      class="specialty-image"
+              >
+
+              <div class="specialty-content">
+                <h3 data-i18n="specialties.dalmatian.title">
+                  Dalmatinische Küche
+                </h3>
+
+                <p data-i18n="specialties.dalmatian.text">
+                  Authentische Gerichte mit mediterranen
+                  Zutaten und traditionellem Geschmack.
+                </p>
+                <a class="specialty-link" href="menu.html#spezial-topfgerichte"><span data-i18n="design.discover">Mehr entdecken</span><span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ===================== END OF SPECIALTIES ===================== -->
+
+
+
+    <!-- ===================== GALLERY PREVIEW ===================== -->
+    <section class="gallery-preview-section">
+      <div class="container">
+
+        <div class="section-heading text-center">
+            <span
+                    class="section-eyebrow"
+                    data-i18n="galleryPreview.eyebrow"
+            >
+                Impressionen
+            </span>
+
+          <h2
+                  class="section-title mx-auto"
+                  data-i18n="galleryPreview.title"
+          >
+            Ein Stück Dalmatien in Berlin
+          </h2>
+          <div class="section-mark" aria-hidden="true"><span></span></div>
+
+          <p
+                  class="gallery-preview-text"
+                  data-i18n="galleryPreview.text"
+          >
+            Entdecken Sie unser Restaurant, unsere Spezialitäten
+            und die gemütliche Atmosphäre.
+          </p>
+        </div>
+
+        <div class="row g-3 mt-4">
+
+          <!-- LARGE IMAGE -->
+          <div class="col-lg-7">
+            <div class="gallery-preview-item gallery-preview-large">
+              <img
+                      loading="lazy" decoding="async" src="images/gallery/restoran-dalmacija-diploma.webp"
+                      alt="Zwei Männer im Restaurant Dalmacija präsentieren eine Urkunde" data-i18n-alt="images.galleryAward"
+              >
+            </div>
+          </div>
+
+          <!-- SMALL IMAGES -->
+          <div class="col-lg-5">
+            <div class="row g-3">
+
+              <div class="col-6">
+                <div class="gallery-preview-item gallery-preview-small">
+                  <img
+                          loading="lazy" decoding="async" src="images/gallery/restoran-dalmacija-menu-image.webp"
+                          alt="Eingang und Fassade des Restaurants Dalmacija mit Tischen im Freien" data-i18n-alt="images.galleryFacade"
+                  >
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="gallery-preview-item gallery-preview-small">
+                  <img
+                          loading="lazy" decoding="async" src="images/gallery/restaurant-out.webp"
+                          alt="Außenansicht des Restaurants Dalmacija mit umzäunter Terrasse" data-i18n-alt="images.galleryExterior"
+                  >
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="gallery-preview-item gallery-preview-wide">
+                  <img
+                          loading="lazy" decoding="async" src="images/gallery/restoran-dalmacija-drinks.webp"
+                          alt="Ein Mitarbeiter schenkt hinter der Theke ein Getränk ein" data-i18n-alt="images.galleryService"
+                  >
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-4">
+          <a
+                  href="gallery.html"
+                  class="gallery-link"
+                  data-i18n="galleryPreview.link"
+          >
+            Zur Bildergalerie
+          </a>
+        </div>
+
+      </div>
+    </section>
+    <!-- ===================== END OF GALLERY PREVIEW ===================== -->
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact-section" id="kontakt">
+      <div class="container">
+        <div class="row g-5 align-items-stretch">
+
+          <!-- CONTACT INFO -->
+          <div class="col-lg-5">
+        <span
+                class="section-eyebrow"
+                data-i18n="contact.eyebrow"
+        >
+          Kontakt
+        </span>
+
+            <h2
+                    class="section-title"
+                    data-i18n="contact.title"
+            >
+              Besuchen Sie uns
+            </h2>
+
+            <p
+                    class="contact-intro"
+                    data-i18n="contact.intro"
+            >
+              Genießen Sie traditionelle kroatische Küche
+              und dalmatinische Gastfreundschaft mitten in Berlin.
+            </p>
+
+            <div class="contact-list">
+
+              <!-- ADDRESS -->
+              <div class="contact-item">
+                <i aria-hidden="true" data-lucide="map-pin"></i>
+
+                <div>
+                  <h3 data-i18n="contact.address">
+                    Adresse
+                  </h3>
+
+                  <p>
+                    Dalmacija Restaurant<br>
+                    Quäkerstraße 2<br>
+                    13403 Berlin-Reinickendorf
+                  </p>
+                </div>
+              </div>
+
+              <!-- PHONE -->
+              <div class="contact-item">
+                <i aria-hidden="true" data-lucide="phone"></i>
+
+                <div>
+                  <h3 data-i18n="contact.phone">
+                    Telefon
+                  </h3>
+
+                  <a href="tel:+49304134103">
+                    +49 30 4134103
+                  </a>
+                </div>
+              </div>
+
+              <!-- OPENING HOURS -->
+              <div class="contact-item">
+                <i aria-hidden="true" data-lucide="clock"></i>
+
+                <div>
+                  <h3 data-i18n="contact.hours">
+                    Öffnungszeiten
+                  </h3>
+
+                  <div class="opening-hours">
+
+                    <div class="opening-hours-row">
+                      <strong data-i18n="contact.monday">
+                        Montag
+                      </strong>
+
+                      <span data-i18n="contact.closed">
+                    Geschlossen
+                  </span>
+                    </div>
+
+                    <div class="opening-hours-row">
+                      <strong data-i18n="contact.tuesdaySunday">
+                        Dienstag – Sonntag
+                      </strong>
+
+                      <span>
+                    12:00 – 21:00
+                  </span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <a
+                    href="tel:+49304134103"
+                    class="btn contact-reservation-btn"
+                    data-i18n="contact.reservation"
+            >
+              Tisch reservieren
+            </a>
+          </div>
+
+          <!-- MAP -->
+          <div class="col-lg-7">
+            <div class="contact-map">
+              <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4768.320126450023!2d13.309702168346709!3d52.573367904953066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a853f5944243bb%3A0xb0c7d014ddbb1e0!2sDalmacija%20Restaurant!5e0!3m2!1sen!2sde!4v1790983339177!5m2!1sen!2sde"
+                      width="600"
+                      height="450"
+                      style="border: 0;"
+                      allowfullscreen
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                      title="Standort des Restaurants Dalmacija in Berlin" data-i18n-title="accessibility.mapTitle"
+              ></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    </main>
+    <!-- ===================== END OF CONTACT ===================== -->
+
+    <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="row g-4 py-5">
+
+        <!-- BRAND -->
+        <div class="col-lg-4">
+          <a
+                  href="index.html"
+                  class="footer-brand d-inline-flex align-items-center gap-3"
+          >
+            <img
+                    src="images/croatia_logo.svg"
+                    alt=""
+                    width="52"
+            >
+
+            <span>Dalmacija</span>
+          </a>
+
+          <p
+                  class="footer-text mt-3"
+                  data-i18n="footer.description"
+          >
+            Traditionelle kroatische Küche und dalmatinische
+            Gastfreundschaft seit 1980 in Berlin.
+          </p>
+        </div>
+
+        <!-- NAVIGATION -->
+        <div class="col-6 col-lg-2 offset-lg-1">
+          <h3
+                  class="footer-title"
+                  data-i18n="footer.navigation"
+          >
+            Navigation
+          </h3>
+
+          <ul class="footer-links">
+            <li>
+              <a href="index.html" data-i18n="nav.home">
+                Willkommen
+              </a>
+            </li>
+
+            <li>
+              <a href="menu.html" data-i18n="nav.food">
+                Speisekarte
+              </a>
+            </li>
+
+            <li>
+              <a href="drinks.html" data-i18n="nav.drinks">
+                Getränkekarte
+              </a>
+            </li>
+
+            <li>
+              <a href="gallery.html" data-i18n="nav.gallery">
+                Bildergalerie
+              </a>
+            </li>
+
+            <li>
+              <a href="#kontakt" data-i18n="nav.contact">
+                Kontakt
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="col-6 col-lg-4 offset-lg-1">
+          <h3
+                  class="footer-title"
+                  data-i18n="footer.contact"
+          >
+            Kontakt
+          </h3>
+
+          <address class="footer-contact">
+            Quäkerstraße 2<br>
+            13403 Berlin-Reinickendorf
+          </address>
+
+          <a class="footer-phone" href="tel:+49304134103">
+            +49 30 4134103
+          </a>
+        </div>
+
+      </div>
+
+      <!-- FOOTER BOTTOM -->
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">
+          © 2026 Restaurant Dalmacija. Alle Rechte vorbehalten.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+    <!-- ===================== END OF FOOTER ===================== -->
+
+
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendor/lucide/lucide.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/language.js"></script>
+  </body>
+</html>

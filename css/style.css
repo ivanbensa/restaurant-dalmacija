@@ -1,0 +1,246 @@
+/* Design B — local typography, warm paper and restrained coastal details. */
+:root {
+    --primary-color: #173f59;
+    --primary-dark: #102d3f;
+    --accent-color: #a8212b;
+    --cream-color: #f7f1e4;
+    --text-color: #292820;
+    --muted-color: #675e53;
+    --white-color: #fff;
+    --paper-rule: rgba(129, 103, 68, .24);
+}
+html { scroll-behavior: smooth; }
+body {
+    margin: 0;
+    background: url("../images/decor/paper-grain.svg") repeat, var(--cream-color);
+    color: var(--text-color);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { font-family: "Playfair Display", Georgia, serif; font-weight: 600; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { text-underline-offset: .25em; }
+:focus-visible { outline: 2px solid var(--accent-color); outline-offset: 4px; }
+.container { --bs-gutter-x: 3rem; }
+
+/* Compact masthead; Bootstrap continues to control the mobile collapse. */
+.custom-navbar { padding: .7rem 0; background: url("../images/decor/paper-grain.svg"), #faf5e9; border-bottom: 1px solid var(--paper-rule); }
+.navbar-brand { margin-right: 1.5rem; }
+.navbar-brand img { width: 42px; height: auto; }
+.logo-text { font-family: "Great Vibes", cursive; font-size: 3rem; color: var(--primary-dark); line-height: 1.15; }
+.custom-navbar .nav-link {
+    position: relative;
+    color: var(--primary-dark);
+    font-size: .69rem;
+    font-weight: 600;
+    letter-spacing: .065em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: .6rem .2rem;
+    transition: color .2s ease;
+}
+.custom-navbar .nav-link::after { content: ""; position: absolute; inset: auto .2rem .25rem; height: 1px; background: var(--accent-color); transform: scaleX(0); transition: transform .2s ease; }
+.custom-navbar .nav-link.active, .custom-navbar .nav-link:hover { color: var(--accent-color); }
+.custom-navbar .nav-link.active::after, .custom-navbar .nav-link:hover::after { transform: scaleX(1); }
+.navbar-toggler { border: 1px solid var(--paper-rule); padding: .55rem; border-radius: 2px; }
+.navbar-toggler:focus-visible { box-shadow: none; outline: 2px solid var(--accent-color); }
+.navbar-reservation { display: inline-flex; align-items: center; gap: .6rem; margin-left: 1.6rem; padding: .7rem 1rem; border: 1px solid var(--accent-color); border-radius: 3px; background: var(--accent-color); color: #fff; font-size: .72rem; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background .2s; }
+.navbar-reservation svg { width: 17px; height: 17px; }
+.navbar-reservation:hover { color: #fff; background: #881b23; }
+.language-btn img, .dropdown-item img { width: 22px; height: 15px; object-fit: cover; display: block; }
+.language-btn { border: 0; background: transparent; padding: .5rem 0 .5rem .25rem; color: var(--primary-dark); font-size: .73rem; cursor: pointer; }
+.language-switcher .dropdown-menu { min-width: 10rem; padding: .4rem; background: #fffcf5; border: 1px solid var(--paper-rule); border-radius: 3px; box-shadow: 0 8px 22px #40331f14; }
+.language-switcher .dropdown-item { font-size: .85rem; padding: .65rem .8rem; border-radius: 2px; color: var(--primary-dark); }
+.language-switcher .dropdown-item:hover, .language-switcher .dropdown-item:focus { background: #eee5d6; }
+.language-switcher .dropdown-item[aria-pressed="true"] { color: var(--accent-color); }
+
+/* An authentic dining-room photograph, with a dark warm edge for readable type. */
+.hero { position: relative; min-height: clamp(31rem, 58vh, 39rem); display: flex; align-items: center; background: url("../images/welcome-dalmacija.webp") center 54% / cover no-repeat; }
+.hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(23, 18, 13, .86), rgba(24, 22, 16, .57) 48%, rgba(24, 22, 16, .13)); }
+.hero::after { content: ""; position: absolute; bottom: -1px; left: 0; right: 0; height: 26px; background: url("../images/decor/paper-grain.svg"), var(--cream-color); clip-path: polygon(0 15%, 10% 38%, 24% 57%, 41% 85%, 57% 100%, 73% 85%, 88% 45%, 100% 0, 100% 100%, 0 100%); }
+.hero-content { position: relative; z-index: 1; padding-top: 3.5rem; padding-bottom: 4rem; }
+.hero-text { max-width: 43rem; color: #fffdf7; }
+.hero-eyebrow { display: block; margin-bottom: .3rem; font-family: "Playfair Display", Georgia, serif; font-size: 1.05rem; letter-spacing: .32em; text-transform: uppercase; }
+.hero-title { margin: 0 0 .8rem; font-size: clamp(2.8rem, 7.2vw, 6.1rem); font-weight: 500; line-height: 1.1; letter-spacing: .005em; text-transform: uppercase; }
+.hero-title::after { content: ""; display: block; height: 2px; width: 9rem; margin-top: .8rem; background: #c4383f; }
+.hero-subtitle { max-width: 30rem; margin: 0 0 1.8rem; font-family: "Playfair Display", Georgia, serif; font-size: clamp(1.4rem, 2.3vw, 2rem); line-height: 1.35; }
+.hero-btn { display: inline-flex; justify-content: center; align-items: center; gap: .65rem; padding: .85rem 1.2rem; border-radius: 4px; font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; transition: background .2s, color .2s; }
+.hero-btn svg { width: 19px; height: 19px; flex-shrink: 0; }
+.hero-btn-primary { background: var(--accent-color); color: #fff; border: 1px solid #c56258; box-shadow: 0 4px 14px #0002; }
+.hero-btn-primary:hover, .hero-btn-primary:focus-visible { background: #881b23; border-color: #d37b6c; color: #fff; }
+.hero-btn-secondary { color: #fff; border: 1px solid #ffffffcf; background: #18161057; }
+.hero-btn-secondary:hover, .hero-btn-secondary:focus-visible { background: #fff9eb; border-color: #fff9eb; color: var(--primary-dark); }
+.hero-signature { position: absolute; right: 2rem; bottom: 2.5rem; max-width: 14rem; margin: 0; color: #fffdf7; font-family: "Great Vibes", cursive; font-size: 2.1rem; line-height: 1.3; text-align: center; transform: rotate(-6deg); text-shadow: 0 2px 8px #000c; }
+
+/* Editorial introduction. Decorative layers never participate in layout. */
+.welcome-section { position: relative; padding: 4rem 0 2.4rem; }
+.section-eyebrow { display: block; margin-bottom: .75rem; color: var(--accent-color); font-size: .7rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; }
+.script-accent { font-family: "Great Vibes", cursive; font-size: 2rem; line-height: 1.3; color: #776247; margin-bottom: .6rem; }
+.section-title { max-width: 36rem; margin-bottom: 1.3rem; color: var(--primary-color); font-size: clamp(2rem, 3.4vw, 3rem); line-height: 1.12; letter-spacing: -.025em; }
+.section-text { max-width: 36rem; font-size: .94rem; line-height: 1.85; margin-bottom: .9rem; }
+.welcome-link, .gallery-link { display: inline-flex; align-items: center; gap: .5rem; margin-top: .4rem; padding-bottom: .15rem; color: var(--accent-color); font-size: .77rem; font-weight: 600; text-decoration: none; border-bottom: 1px solid #a8212b66; }
+.welcome-link:hover, .gallery-link:hover { color: var(--primary-dark); border-color: var(--primary-dark); }
+.welcome-image-wrapper { position: relative; isolation: isolate; padding: 1rem 1rem 3rem 2.5rem; }
+.welcome-image-wrapper::before { content: ""; position: absolute; z-index: -1; inset: -2rem -1rem -1rem -3rem; background: url("../images/decor/dalmatian-coast.svg") center bottom / contain no-repeat; opacity: .35; }
+.welcome-image-wrapper::after { content: ""; position: absolute; left: -.6rem; bottom: 0; width: 8rem; height: 15rem; background: url("../images/decor/olive-branch.svg") center / contain no-repeat; transform: rotate(-27deg); pointer-events: none; }
+.welcome-image { display: block; width: 100%; height: auto; aspect-ratio: 1.45; object-fit: cover; border: 6px solid #fffcf0; box-shadow: 0 9px 24px #4f3f2a24; transform: rotate(2deg); }
+.welcome-image-caption { display: block; position: relative; margin: 1.2rem 0 -1.5rem 3rem; text-align: right; font-size: 1.9rem; }
+
+/* The light feature strip belongs to the welcome composition. */
+.features-strip { padding: .2rem 0 2.5rem; }
+.features-strip .row { border-top: 1px solid var(--paper-rule); border-bottom: 1px solid var(--paper-rule); padding: 1rem 0; }
+.feature-item { min-width: 0; height: 100%; display: flex; align-items: center; gap: 1rem; padding: .6rem 1.3rem; border-right: 1px solid var(--paper-rule); }
+.features-strip .row > :last-child .feature-item { border-right: 0; }
+.feature-item > div { min-width: 0; overflow-wrap: anywhere; }
+.feature-item h3 { margin: 0 0 .3rem; color: var(--primary-dark); font-size: 1.02rem; line-height: 1.35; }
+.feature-item p { margin: 0; color: var(--muted-color); font-size: .73rem; line-height: 1.5; }
+.feature-icon { width: 2rem; height: 2rem; stroke: var(--accent-color); stroke-width: 1.5; flex-shrink: 0; }
+
+/* Framed photographs and a small Croatian checker detail. */
+.specialties-section { position: relative; isolation: isolate; padding: 2rem 0 4rem; }
+.specialties-section::before { content: ""; position: absolute; z-index: -1; top: -1rem; right: 0; width: 7rem; height: 13rem; background: url("../images/decor/olive-branch.svg") center / contain no-repeat; transform: scaleX(-1); opacity: .85; pointer-events: none; }
+.section-heading .section-title { max-width: 50rem; margin-bottom: .9rem; }
+.section-mark { display: flex; align-items: center; justify-content: center; gap: .65rem; margin: 0 auto 1rem; }
+.section-mark::before, .section-mark::after { content: ""; width: 3.6rem; height: 1px; background: #a8212b70; }
+.section-mark span { width: 15px; height: 20px; background: conic-gradient(var(--accent-color) 25%, transparent 0 50%, var(--accent-color) 0 75%, transparent 0) 0 0 / 10px 10px; clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%); }
+.specialties-intro, .gallery-preview-text { max-width: 38rem; margin: 0 auto; color: var(--muted-color); font-size: .9rem; line-height: 1.75; }
+.specialty-card { height: 100%; padding: 6px; background: #fffdf54d; border: 1px solid #9e835d30; border-radius: 3px; box-shadow: 0 4px 16px #59432208; transition: box-shadow .25s, transform .25s; }
+.specialty-card:hover { transform: translateY(-3px); box-shadow: 0 9px 22px #59432216; }
+.specialty-image { display: block; width: 100%; height: auto; aspect-ratio: 1.55; object-fit: cover; border-radius: 1px; }
+.specialty-content { padding: 1.2rem 1rem 1rem; text-align: center; }
+.specialty-content h3 { margin-bottom: .65rem; color: var(--primary-color); font-size: 1.4rem; line-height: 1.25; }
+.specialty-content p { max-width: 20rem; min-height: 3.1rem; margin: 0 auto; color: var(--muted-color); font-size: .86rem; line-height: 1.65; }
+.specialty-link { display: inline-flex; gap: .55rem; align-items: center; margin-top: .7rem; min-height: 36px; padding: .3rem 0; color: var(--accent-color); font-size: .7rem; font-weight: 700; letter-spacing: .085em; text-transform: uppercase; text-decoration: none; }
+.specialty-link span:first-child { border-bottom: 1px solid #a8212b55; }
+.specialty-link:hover { color: var(--primary-dark); }
+
+/* Real restaurant photographs remain prominent, without a heavy card shell. */
+.gallery-preview-section { padding: 3.8rem 0 4rem; border-top: 1px solid var(--paper-rule); border-bottom: 1px solid var(--paper-rule); background: #ece2cf26; }
+.gallery-preview-item { overflow: hidden; padding: 5px; border: 1px solid var(--paper-rule); background: #fffaf0; border-radius: 2px; }
+.gallery-preview-item img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .4s; }
+.gallery-preview-item:hover img { transform: scale(1.025); }
+.gallery-preview-large { height: 28rem; }
+.gallery-preview-small { height: 13rem; }
+.gallery-preview-wide { height: 14rem; }
+.gallery-link { margin-top: .5rem; }
+
+/* Practical contact details, warm framing and the existing map. */
+.contact-section { position: relative; isolation: isolate; padding: 4.5rem 0; }
+.contact-section::before { content: ""; position: absolute; z-index: -1; bottom: 0; left: 0; width: min(45vw, 40rem); height: 15rem; background: url("../images/decor/dalmatian-coast.svg") center bottom / contain no-repeat; opacity: .1; pointer-events: none; }
+.contact-intro { max-width: 33rem; margin-bottom: 1.8rem; color: var(--muted-color); font-size: .92rem; line-height: 1.8; }
+.contact-list { display: flex; flex-direction: column; gap: 1.3rem; }
+.contact-item { display: flex; align-items: flex-start; gap: 1rem; }
+.contact-item svg { width: 1.4rem; height: 1.4rem; margin-top: .2rem; flex-shrink: 0; stroke: var(--accent-color); stroke-width: 1.6; }
+.contact-item h3 { margin-bottom: .3rem; color: var(--primary-color); font-size: 1.12rem; }
+.contact-item p, .contact-item a { margin: 0; color: var(--muted-color); font-size: .9rem; text-decoration: none; }
+.contact-item a:hover { color: var(--accent-color); }
+.opening-hours { display: flex; flex-direction: column; gap: .65rem; max-width: 24rem; font-size: .9rem; }
+.opening-hours-row { display: flex; flex-direction: column; gap: .05rem; }
+.opening-hours-row strong { color: var(--primary-dark); font-weight: 500; }
+.opening-hours-row span { color: var(--muted-color); }
+.contact-reservation-btn { margin-top: 1.8rem; padding: .85rem 1.4rem; background: var(--accent-color); color: #fff; border: 1px solid var(--accent-color); border-radius: 3px; font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+.contact-reservation-btn:hover { background: #881b23; color: #fff; border-color: #881b23; }
+.contact-map { width: 100%; height: 100%; min-height: 29rem; padding: 7px; border: 1px solid var(--paper-rule); border-radius: 3px; background: #fffaf0; box-shadow: 0 8px 24px #5943220c; }
+.contact-map iframe { display: block; width: 100%; height: 100%; min-height: 29rem; border: 0; }
+
+.footer { position: relative; background: var(--primary-dark); color: #fff; border-top: 3px solid #b79d70; }
+.footer-brand { color: #fffdf2; text-decoration: none; }
+.footer-brand span { font-family: "Great Vibes", cursive; font-size: 2.8rem; line-height: 1.2; }
+.footer-brand img { width: 40px; height: auto; }
+.footer-text { max-width: 23rem; color: #ffffffc7; font-size: .85rem; line-height: 1.8; }
+.footer-title { margin-bottom: 1rem; color: #e0c798; font-size: 1.1rem; }
+.footer-links { margin: 0; padding: 0; list-style: none; }
+.footer-links li + li { margin-top: .45rem; }
+.footer-links a, .footer-phone { color: #ffffffd1; font-size: .86rem; text-decoration: none; transition: color .2s; }
+.footer-links a:hover, .footer-phone:hover { color: #e0c798; }
+.footer-contact { margin-bottom: 1rem; color: #ffffffd1; font-size: .86rem; font-style: normal; line-height: 1.85; }
+.footer-bottom { padding: 1.2rem 0; border-top: 1px solid #ffffff26; text-align: center; }
+.footer-bottom p { margin: 0; color: #ffffffb8; font-size: .72rem; }
+.footer a:focus-visible, .hero a:focus-visible { outline-color: #fff0c5; }
+.skip-link { position: absolute; top: -5rem; left: 1rem; z-index: 9999; max-width: calc(100% - 2rem); padding: .7rem 1rem; background: var(--primary-dark); color: #fff; text-decoration: none; }
+.skip-link:focus { top: 1rem; }
+
+/* Mobile layouts remove decoration instead of shrinking a desktop composition. */
+@media (min-width: 1600px) {
+    .hero::before { content: ""; position: absolute; z-index: 2; right: 4rem; top: -.8rem; width: 9rem; height: 13rem; background: url("../images/decor/olive-branch.svg") center / contain no-repeat; transform: rotate(155deg); pointer-events: none; }
+}
+@media (max-width: 1399.98px) { .navbar-reservation { display: none; } }
+@media (max-width: 1199.98px) {
+    .navbar-nav { padding-top: 1rem; text-align: center; }
+    .custom-navbar .nav-link { font-size: .8rem; padding: .75rem .3rem; }
+    .custom-navbar .nav-link::after { bottom: .4rem; }
+    .language-switcher { width: fit-content; margin: .7rem auto .5rem; }
+    .hero-signature { display: none; }
+    .feature-item { padding: .6rem .85rem; gap: .7rem; }
+    .feature-icon { width: 1.65rem; height: 1.65rem; }
+}
+@media (max-width: 991.98px) {
+    .hero { min-height: 30rem; }
+    .hero-content { padding-top: 3rem; padding-bottom: 4rem; }
+    .welcome-section { padding-top: 3rem; }
+    .welcome-image-wrapper { max-width: 38rem; margin: 0 auto; }
+    .welcome-section .section-title, .welcome-section .section-text { max-width: none; }
+    .feature-item { padding: .9rem 1.2rem; }
+    .features-strip .row > :nth-child(2) .feature-item { border-right: 0; }
+    .features-strip .row > :nth-child(-n+2) .feature-item { border-bottom: 1px solid var(--paper-rule); }
+    .gallery-preview-large { height: auto; aspect-ratio: 1.5; }
+    .gallery-preview-small { height: auto; aspect-ratio: 1.5; }
+    .gallery-preview-wide { height: auto; aspect-ratio: 2.4; }
+    .contact-map, .contact-map iframe { min-height: 24rem; }
+    .specialties-section::before, .contact-section::before { display: none; }
+}
+@media (max-width: 767.98px) {
+    .container { --bs-gutter-x: 2.5rem; }
+    .welcome-section .row, .contact-section .row { --bs-gutter-x: 2rem; --bs-gutter-y: 2rem; }
+    .custom-navbar { padding: .65rem 0; }
+    .navbar-brand { gap: .65rem !important; margin-right: .5rem; }
+    .navbar-brand img { width: 35px; }
+    .logo-text { font-size: 2.5rem; }
+    .hero { min-height: 28rem; background-position: 60% center; }
+    .hero-overlay { background: linear-gradient(90deg, #17120de6, #18161091); }
+    .hero-title { font-size: clamp(2.4rem, 9.3vw, 4rem); }
+    .hero-eyebrow { font-size: .78rem; letter-spacing: .26em; }
+    .hero-subtitle { max-width: 24rem; font-size: 1.45rem; }
+    .hero-btn { font-size: .68rem; padding: .8rem 1rem; }
+    .hero::after { height: 15px; }
+    .section-title { font-size: clamp(1.85rem, 6.5vw, 2.6rem); line-height: 1.17; }
+    .section-eyebrow { font-size: .63rem; letter-spacing: .15em; }
+    .script-accent { font-size: 1.8rem; }
+    .section-text { font-size: .9rem; line-height: 1.8; }
+    .welcome-image-wrapper { padding: .6rem 0 2rem; }
+    .welcome-image-wrapper::before, .welcome-image-wrapper::after { display: none; }
+    .welcome-image { transform: none; border-width: 5px; aspect-ratio: 1.5; }
+    .welcome-image-caption { margin: .8rem 0 -1rem; font-size: 1.65rem; text-align: center; }
+    .welcome-section { padding-bottom: 1.8rem; }
+    .features-strip { padding-bottom: 1.5rem; }
+    .features-strip .row { padding: .25rem 0; }
+    .feature-item { flex-direction: column; align-items: flex-start; padding: 1rem .8rem; gap: .65rem; }
+    .feature-item h3 { font-size: .96rem; }
+    .feature-item p { font-size: .7rem; }
+    .specialties-section { padding: 2rem 0 3rem; }
+    .specialty-image { aspect-ratio: 1.65; }
+    .specialty-content p { min-height: 0; }
+    .gallery-preview-section { padding: 3rem 0; }
+    .gallery-preview-large { aspect-ratio: 1.2; }
+    .gallery-preview-small { aspect-ratio: 1; }
+    .gallery-preview-wide { aspect-ratio: 1.8; }
+    .contact-section { padding: 3rem 0; }
+    .contact-map, .contact-map iframe { min-height: 21rem; }
+    .footer .row { --bs-gutter-x: 1.5rem; }
+    .footer-bottom p { font-size: .68rem; }
+}
+@media (max-width: 419.98px) {
+    .hero { min-height: 29rem; }
+    .hero-actions { flex-direction: column; gap: .75rem !important; align-items: stretch; }
+    .hero-btn { width: 100%; }
+    .hero-text { width: 100%; }
+    .hero-subtitle { margin-bottom: 1.4rem; }
+    .hero-title::after { width: 6rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .specialty-card, .gallery-preview-item img, .nav-link, .nav-link::after, .hero-btn, .navbar-reservation, .footer a { transition: none !important; }
+    .specialty-card:hover, .gallery-preview-item:hover img { transform: none; }
+}

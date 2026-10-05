@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 30" width="960" height="600">
+	<clipPath clipPathUnits="userSpaceOnUse" id="cp">
+		<path d="M0 0v15h48v15zM0 30h24V0h24z"/>
+	</clipPath>
+	<path fill="#012169" d="M0 0h48v30H0z"/>
+	<path stroke="#FFF" stroke-width="6" d="M0 0 48 30M48 0 0 30"/>
+	<path stroke="#c8102e" stroke-width="4" clip-path="url(#cp)" d="M0 0 48 30M48 0 0 30"/>
+	<path fill="#c8102e" stroke="#FFF" stroke-width="2" d="M-1 11H20V-1h8v12h21v8H28V31H20V19H-1z"/>
+</svg>

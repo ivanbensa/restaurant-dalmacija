@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Welcome",
+    "food": "Food Menu",
+    "drinks": "Drinks Menu",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Restaurant",
+    "subtitle": "Croatian specialties in Berlin since 1980",
+    "menu": "View menu",
+    "reservation": "Reserve a table"
+  },
+  "welcome": {
+    "eyebrow": "Welcome to Restaurant Dalmacija",
+    "title": "Traditional Croatian cuisine since 1980",
+    "text1": "For over 40 years, we have been serving our guests traditional Croatian dishes made with fresh ingredients in a welcoming atmosphere in the heart of Berlin.",
+    "text2": "Discover the variety of Dalmatian cuisine and enjoy a taste of Croatia in Berlin.",
+    "link": "More about us"
+  },
+  "specialties": {
+    "eyebrow": "Our cuisine",
+    "title": "Our specialties",
+    "intro": "Discover some of our most popular dishes from Croatian and Dalmatian cuisine.",
+    "fish": {
+      "title": "Fresh fish",
+      "text": "Freshly prepared fish dishes inspired by the Adriatic coast."
+    },
+    "grill": {
+      "title": "Grill specialties",
+      "text": "Juicy meat dishes and traditional specialties straight from the grill."
+    },
+    "dalmatian": {
+      "title": "Dalmatian cuisine",
+      "text": "Authentic dishes with Mediterranean ingredients and traditional flavors."
+    }
+  },
+  "features": {
+    "recipes": {
+      "title": "Traditional recipes",
+      "text": "Since 1980"
+    },
+    "fish": {
+      "title": "Fresh fish",
+      "text": "A taste of the Adriatic"
+    },
+    "wine": {
+      "title": "Selected wines",
+      "text": "Croatian & international wines"
+    },
+    "atmosphere": {
+      "title": "Cozy atmosphere",
+      "text": "A piece of Dalmatia in Berlin"
+    }
+  },
+  "galleryPreview": {
+    "eyebrow": "Impressions",
+    "title": "A piece of Dalmatia in Berlin",
+    "text": "Discover our restaurant, our specialties and our welcoming atmosphere.",
+    "link": "View gallery"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Visit us",
+    "intro": "Enjoy traditional Croatian cuisine and Dalmatian hospitality in Berlin.",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "monday": "Monday",
+    "closed": "Closed",
+    "tuesdaySunday": "Tuesday – Sunday",
+    "reservation": "Reserve a table"
+  },
+  "footer": {
+    "description": "Traditional Croatian cuisine and Dalmatian hospitality in Berlin since 1980.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "copyright": "© 2026 Restaurant Dalmacija. All rights reserved."
+  },
+  "menuPage": {
+    "eyebrow": "Our cuisine",
+    "title": "Our food menu",
+    "intro": "Discover traditional Croatian specialties, Mediterranean dishes and classics from our kitchen.",
+    "error": "The food menu could not be loaded. Please reload the page or call us."
+  },
+  "galleryPage": {
+    "eyebrow": "Impressions",
+    "title": "Gallery",
+    "intro": "Take a look at our restaurant, our cuisine and Croatian specialties."
+  },
+  "pageTitles": {
+    "home": "Restaurant Dalmacija | Croatian cuisine in Berlin",
+    "menu": "Food menu | Restaurant Dalmacija Berlin",
+    "drinks": "Drinks menu | Restaurant Dalmacija Berlin",
+    "gallery": "Gallery | Restaurant Dalmacija Berlin"
+  },
+  "metaDescriptions": {
+    "home": "Discover Restaurant Dalmacija in Berlin: traditional Croatian cuisine since 1980, Dalmatian specialties and a welcoming atmosphere.",
+    "menu": "Explore the food menu at Restaurant Dalmacija in Berlin, featuring Croatian specialties, fish dishes, grilled dishes and current prices.",
+    "drinks": "The drinks menu at Restaurant Dalmacija in Berlin: Croatian and international wines, beers, spirits and non-alcoholic drinks with prices.",
+    "gallery": "Photos of Restaurant Dalmacija in Berlin: explore our dining rooms, fish dishes, hospitality and restaurant atmosphere."
+  },
+  "accessibility": {
+    "skipLink": "Skip to main content",
+    "mainNavigation": "Main navigation",
+    "openNavigation": "Open or close navigation",
+    "chooseLanguage": "Choose language",
+    "foodCategories": "Food categories",
+    "drinkCategories": "Drink categories",
+    "galleryTitle": "Photos of Restaurant Dalmacija",
+    "closeGallery": "Close gallery",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "mapTitle": "Location of Restaurant Dalmacija in Berlin"
+  },
+  "images": {
+    "welcomeInterior": "Dining room with tables set for dining and upholstered bench seating",
+    "specialtyFish": "Whole grilled fish with potatoes and lemon on a plate",
+    "specialtyGrill": "Ćevapčići with rice, cheese, sliced onions and vegetables on a plate",
+    "specialtyDalmatian": "Roasted octopus with potatoes and vegetables in a pan",
+    "galleryAward": "Two men presenting a certificate inside the restaurant",
+    "galleryFacade": "Restaurant Dalmacija entrance and front facade with outdoor tables",
+    "galleryExterior": "Restaurant Dalmacija exterior with a fenced terrace",
+    "galleryService": "A staff member pouring a drink behind the bar",
+    "galleryFish": "Salmon fillet with green asparagus and lemon slices",
+    "galleryInterior": "Dining room with tables set for dining and upholstered bench seating",
+    "galleryBear": "Decorative bear figure with the Croatian coat of arms holding a Dalmacija sign"
+  },
+  "drinksPage": {
+    "eyebrow": "Our selection",
+    "title": "Our drinks menu",
+    "intro": "Discover our selection of Croatian wines, spirits, beers and non-alcoholic drinks.",
+    "error": "The drinks menu could not be loaded. Please reload the page or call us."
+  },
+  "design": {
+    "welcomeScript": "A warm welcome",
+    "foodSignature": "Mediterranean flavours, rooted in tradition",
+    "discover": "Discover more"
+  }
+}

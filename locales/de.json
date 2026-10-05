@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Willkommen",
+    "food": "Speisekarte",
+    "drinks": "Getränkekarte",
+    "gallery": "Bildergalerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "Restaurant",
+    "subtitle": "Kroatische Spezialitäten seit 1980 in Berlin",
+    "menu": "Speisekarte ansehen",
+    "reservation": "Tisch reservieren"
+  },
+  "welcome": {
+    "eyebrow": "Willkommen im Restaurant Dalmacija",
+    "title": "Traditionelle kroatische Küche seit 1980",
+    "text1": "Seit über 40 Jahren verwöhnen wir unsere Gäste mit traditionellen kroatischen Gerichten, frischen Zutaten und einer gemütlichen Atmosphäre mitten in Berlin.",
+    "text2": "Entdecken Sie die Vielfalt der dalmatinischen Küche und genießen Sie ein Stück Kroatien in Berlin.",
+    "link": "Mehr über uns"
+  },
+  "specialties": {
+    "eyebrow": "Unsere Küche",
+    "title": "Unsere Spezialitäten",
+    "intro": "Entdecken Sie einige unserer beliebtesten Gerichte aus der kroatischen und dalmatinischen Küche.",
+    "fish": {
+      "title": "Frischer Fisch",
+      "text": "Frisch zubereitete Fischgerichte, inspiriert von der Adriaküste."
+    },
+    "grill": {
+      "title": "Grillspezialitäten",
+      "text": "Saftige Fleischgerichte und traditionelle Spezialitäten direkt vom Grill."
+    },
+    "dalmatian": {
+      "title": "Dalmatinische Küche",
+      "text": "Authentische Gerichte mit mediterranen Zutaten und traditionellem Geschmack."
+    }
+  },
+  "features": {
+    "recipes": {
+      "title": "Traditionelle Rezepte",
+      "text": "Seit 1980"
+    },
+    "fish": {
+      "title": "Frischer Fisch",
+      "text": "Adriatischer Genuss"
+    },
+    "wine": {
+      "title": "Ausgewählte Weine",
+      "text": "Kroatische & internationale Weine"
+    },
+    "atmosphere": {
+      "title": "Gemütliche Atmosphäre",
+      "text": "Ein Stück Dalmatien in Berlin"
+    }
+  },
+  "galleryPreview": {
+    "eyebrow": "Impressionen",
+    "title": "Ein Stück Dalmatien in Berlin",
+    "text": "Entdecken Sie unser Restaurant, unsere Spezialitäten und die gemütliche Atmosphäre.",
+    "link": "Zur Bildergalerie"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Besuchen Sie uns",
+    "intro": "Genießen Sie traditionelle kroatische Küche und dalmatinische Gastfreundschaft mitten in Berlin.",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "hours": "Öffnungszeiten",
+    "monday": "Montag",
+    "closed": "Geschlossen",
+    "tuesdaySunday": "Dienstag – Sonntag",
+    "reservation": "Tisch reservieren"
+  },
+  "footer": {
+    "description": "Traditionelle kroatische Küche und dalmatinische Gastfreundschaft seit 1980 in Berlin.",
+    "navigation": "Navigation",
+    "contact": "Kontakt",
+    "copyright": "© 2026 Restaurant Dalmacija. Alle Rechte vorbehalten."
+  },
+  "menuPage": {
+    "eyebrow": "Unsere Küche",
+    "title": "Unsere Speisekarte",
+    "intro": "Entdecken Sie traditionelle kroatische Spezialitäten, mediterrane Gerichte und Klassiker aus unserer Küche.",
+    "error": "Die Speisekarte konnte nicht geladen werden. Bitte laden Sie die Seite erneut oder rufen Sie uns an."
+  },
+  "galleryPage": {
+    "eyebrow": "Impressionen",
+    "title": "Bildergalerie",
+    "intro": "Einblicke in unser Restaurant, unsere Küche und kroatische Spezialitäten."
+  },
+  "pageTitles": {
+    "home": "Restaurant Dalmacija | Kroatische Küche in Berlin",
+    "menu": "Speisekarte | Restaurant Dalmacija Berlin",
+    "drinks": "Getränkekarte | Restaurant Dalmacija Berlin",
+    "gallery": "Bildergalerie | Restaurant Dalmacija Berlin"
+  },
+  "metaDescriptions": {
+    "home": "Entdecken Sie Restaurant Dalmacija in Berlin: traditionelle kroatische Küche seit 1980, dalmatinische Spezialitäten und eine gemütliche Atmosphäre.",
+    "menu": "Entdecken Sie die Speisekarte des Restaurant Dalmacija in Berlin mit kroatischen Spezialitäten, Fischgerichten, Grillgerichten und aktuellen Preisen.",
+    "drinks": "Die Getränkekarte des Restaurant Dalmacija in Berlin: kroatische und internationale Weine, Biere, Spirituosen und alkoholfreie Getränke mit Preisen.",
+    "gallery": "Bilder aus dem Restaurant Dalmacija in Berlin: Entdecken Sie unsere Räume, Fischgerichte, Gastfreundschaft und die Atmosphäre unseres Restaurants."
+  },
+  "accessibility": {
+    "skipLink": "Zum Hauptinhalt springen",
+    "mainNavigation": "Hauptnavigation",
+    "openNavigation": "Navigation öffnen oder schließen",
+    "chooseLanguage": "Sprache wählen",
+    "foodCategories": "Speisekategorien",
+    "drinkCategories": "Getränkekategorien",
+    "galleryTitle": "Fotos aus dem Restaurant Dalmacija",
+    "closeGallery": "Bildergalerie schließen",
+    "previousImage": "Vorheriges Bild",
+    "nextImage": "Nächstes Bild",
+    "mapTitle": "Standort des Restaurant Dalmacija in Berlin"
+  },
+  "images": {
+    "welcomeInterior": "Speiseraum mit gedeckten Tischen und gepolsterten Sitzbänken",
+    "specialtyFish": "Ganzer gegrillter Fisch mit Kartoffeln und Zitrone auf einem Teller",
+    "specialtyGrill": "Ćevapčići mit Reis, Käse, geschnittenen Zwiebeln und Gemüse auf einem Teller",
+    "specialtyDalmatian": "Gebratener Oktopus mit Kartoffeln und Gemüse in einer Pfanne",
+    "galleryAward": "Zwei Männer präsentieren eine Urkunde im Restaurant",
+    "galleryFacade": "Eingang und Fassade des Restaurant Dalmacija mit Tischen im Freien",
+    "galleryExterior": "Außenansicht des Restaurant Dalmacija mit umzäunter Terrasse",
+    "galleryService": "Ein Mitarbeiter schenkt hinter der Bar ein Getränk ein",
+    "galleryFish": "Lachsfilet mit grünem Spargel und Zitronenscheiben",
+    "galleryInterior": "Speiseraum mit gedeckten Tischen und gepolsterten Sitzbänken",
+    "galleryBear": "Dekorative Bärenfigur mit kroatischem Wappen und einem Dalmacija-Schild in den Händen"
+  },
+  "drinksPage": {
+    "eyebrow": "Unsere Auswahl",
+    "title": "Unsere Getränkekarte",
+    "intro": "Entdecken Sie unsere Auswahl an kroatischen Weinen, Spirituosen, Bieren und alkoholfreien Getränken.",
+    "error": "Die Getränkekarte konnte nicht geladen werden. Bitte laden Sie die Seite erneut oder rufen Sie uns an."
+  },
+  "design": {
+    "welcomeScript": "Herzlich willkommen",
+    "foodSignature": "Mediterraner Genuss mit Tradition",
+    "discover": "Mehr entdecken"
+  }
+}

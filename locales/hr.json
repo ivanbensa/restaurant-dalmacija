@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Dobrodošli",
+    "food": "Jelovnik",
+    "drinks": "Karta pića",
+    "gallery": "Galerija",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "Restoran",
+    "subtitle": "Hrvatski specijaliteti u Berlinu od 1980.",
+    "menu": "Pogledajte jelovnik",
+    "reservation": "Rezervirajte stol"
+  },
+  "welcome": {
+    "eyebrow": "Dobrodošli u restoran Dalmacija",
+    "title": "Tradicionalna hrvatska kuhinja od 1980.",
+    "text1": "Više od 40 godina svojim gostima nudimo tradicionalna hrvatska jela, svježe namirnice i ugodnu atmosferu u srcu Berlina.",
+    "text2": "Otkrijte raznolikost dalmatinske kuhinje i uživajte u komadiću Hrvatske u Berlinu.",
+    "link": "Više o nama"
+  },
+  "specialties": {
+    "eyebrow": "Naša kuhinja",
+    "title": "Naši specijaliteti",
+    "intro": "Otkrijte neka od naših najpopularnijih jela hrvatske i dalmatinske kuhinje.",
+    "fish": {
+      "title": "Svježa riba",
+      "text": "Svježe pripremljena riblja jela inspirirana Jadranskom obalom."
+    },
+    "grill": {
+      "title": "Specijaliteti s roštilja",
+      "text": "Sočna mesna jela i tradicionalni specijaliteti ravno s roštilja."
+    },
+    "dalmatian": {
+      "title": "Dalmatinska kuhinja",
+      "text": "Autentična jela s mediteranskim sastojcima i tradicionalnim okusom."
+    }
+  },
+  "features": {
+    "recipes": {
+      "title": "Tradicionalni recepti",
+      "text": "Od 1980."
+    },
+    "fish": {
+      "title": "Svježa riba",
+      "text": "Okusi Jadrana"
+    },
+    "wine": {
+      "title": "Odabrana vina",
+      "text": "Hrvatska i međunarodna vina"
+    },
+    "atmosphere": {
+      "title": "Ugodna atmosfera",
+      "text": "Dio Dalmacije u Berlinu"
+    }
+  },
+  "galleryPreview": {
+    "eyebrow": "Dojmovi",
+    "title": "Dio Dalmacije u Berlinu",
+    "text": "Otkrijte naš restoran, naše specijalitete i ugodnu atmosferu.",
+    "link": "Pogledajte galeriju"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Posjetite nas",
+    "intro": "Uživajte u tradicionalnoj hrvatskoj kuhinji i dalmatinskom gostoprimstvu u Berlinu.",
+    "address": "Adresa",
+    "phone": "Telefon",
+    "hours": "Radno vrijeme",
+    "monday": "Ponedjeljak",
+    "closed": "Zatvoreno",
+    "tuesdaySunday": "Utorak – Nedjelja",
+    "reservation": "Rezervirajte stol"
+  },
+  "footer": {
+    "description": "Tradicionalna hrvatska kuhinja i dalmatinsko gostoprimstvo od 1980. godine u Berlinu.",
+    "navigation": "Navigacija",
+    "contact": "Kontakt",
+    "copyright": "© 2026 Restaurant Dalmacija. Sva prava pridržana."
+  },
+  "menuPage": {
+    "eyebrow": "Naša kuhinja",
+    "title": "Naš jelovnik",
+    "intro": "Otkrijte tradicionalne hrvatske specijalitete, mediteranska jela i klasike iz naše kuhinje.",
+    "error": "Jelovnik nije učitan. Ponovno učitajte stranicu ili nas nazovite."
+  },
+  "galleryPage": {
+    "eyebrow": "Dojmovi",
+    "title": "Galerija",
+    "intro": "Pogledajte naš restoran, našu kuhinju i hrvatske specijalitete."
+  },
+  "pageTitles": {
+    "home": "Restaurant Dalmacija | Hrvatska kuhinja u Berlinu",
+    "menu": "Jelovnik | Restaurant Dalmacija Berlin",
+    "drinks": "Karta pića | Restaurant Dalmacija Berlin",
+    "gallery": "Galerija | Restaurant Dalmacija Berlin"
+  },
+  "metaDescriptions": {
+    "home": "Otkrijte Restaurant Dalmacija u Berlinu: tradicionalna hrvatska kuhinja od 1980., dalmatinski specijaliteti i ugodna atmosfera.",
+    "menu": "Otkrijte jelovnik restorana Dalmacija u Berlinu s hrvatskim specijalitetima, ribljim jelima, jelima s roštilja i aktualnim cijenama.",
+    "drinks": "Karta pića restorana Dalmacija u Berlinu: hrvatska i međunarodna vina, piva, žestoka i bezalkoholna pića s cijenama.",
+    "gallery": "Fotografije restorana Dalmacija u Berlinu: upoznajte naš prostor, riblja jela, gostoprimstvo i atmosferu restorana."
+  },
+  "accessibility": {
+    "skipLink": "Prijeđi na glavni sadržaj",
+    "mainNavigation": "Glavna navigacija",
+    "openNavigation": "Otvori ili zatvori navigaciju",
+    "chooseLanguage": "Odaberite jezik",
+    "foodCategories": "Kategorije jela",
+    "drinkCategories": "Kategorije pića",
+    "galleryTitle": "Fotografije restorana Dalmacija",
+    "closeGallery": "Zatvori galeriju",
+    "previousImage": "Prethodna slika",
+    "nextImage": "Sljedeća slika",
+    "mapTitle": "Lokacija restorana Dalmacija u Berlinu"
+  },
+  "images": {
+    "welcomeInterior": "Blagovaonica s postavljenim stolovima i tapeciranim klupama",
+    "specialtyFish": "Cijela riba s roštilja s krumpirom i limunom na tanjuru",
+    "specialtyGrill": "Ćevapčići s rižom, sirom, narezanim lukom i povrćem na tanjuru",
+    "specialtyDalmatian": "Pečena hobotnica s krumpirom i povrćem u tavi",
+    "galleryAward": "Dvojica muškaraca pokazuju priznanje u restoranu",
+    "galleryFacade": "Ulaz i pročelje restorana Dalmacija sa stolovima na otvorenom",
+    "galleryExterior": "Vanjski izgled restorana Dalmacija s ograđenom terasom",
+    "galleryService": "Član osoblja toči piće iza šanka",
+    "galleryFish": "File lososa sa zelenim šparogama i kriškama limuna",
+    "galleryInterior": "Blagovaonica s postavljenim stolovima i tapeciranim klupama",
+    "galleryBear": "Ukrasna figura medvjeda s hrvatskim grbom koja drži natpis Dalmacija"
+  },
+  "drinksPage": {
+    "eyebrow": "Naš izbor",
+    "title": "Naša karta pića",
+    "intro": "Otkrijte naš izbor hrvatskih vina, žestokih pića, piva i bezalkoholnih pića.",
+    "error": "Karta pića nije učitana. Ponovno učitajte stranicu ili nas nazovite."
+  },
+  "design": {
+    "welcomeScript": "Dobro nam došli",
+    "foodSignature": "Mediteranski užitak s tradicijom",
+    "discover": "Otkrijte više"
+  }
+}

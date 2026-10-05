@@ -1,0 +1,183 @@
+/* ===================== GALLERY HEADER ===================== */
+
+.gallery-header-section {
+    position: relative;
+    isolation: isolate;
+    padding: 5rem 0 3.6rem;
+    background-color: transparent;
+}
+
+.gallery-header-section::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 1.5rem 0 0 auto;
+    width: min(34vw, 30rem);
+    background: url("../images/decor/dalmatian-coast.svg") right bottom / contain no-repeat;
+    opacity: 0.15;
+    mask-image: linear-gradient(to right, transparent, #000 60%);
+    pointer-events: none;
+}
+
+.gallery-main-title {
+    margin: 0.5rem 0 1.2rem;
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2.4rem, 5vw, 4.1rem);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+    color: var(--primary-color);
+    overflow-wrap: anywhere;
+}
+
+.gallery-main-title::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 1px;
+    margin: 1.3rem auto 0;
+    background-color: var(--accent-color);
+}
+
+.gallery-intro {
+    max-width: 42rem;
+    margin: 0 auto;
+    color: var(--muted-color);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+
+/* ===================== GALLERY GRID ===================== */
+
+.gallery-section {
+    padding: 1rem 0 6rem;
+    background-color: transparent;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.6rem;
+}
+
+.gallery-item {
+    min-width: 0;
+    padding: 0.4rem;
+    border: 1px solid rgba(129, 103, 68, 0.27);
+    background: #fffbf3;
+    overflow: hidden;
+    border-radius: 0.2rem;
+    box-shadow: 0 5px 18px rgba(59, 46, 26, 0.065);
+    cursor: pointer;
+    aspect-ratio: 4 / 3;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+
+/* ===================== HOVER ===================== */
+
+.gallery-item:hover img {
+    transform: scale(1.035);
+}
+
+.gallery-item:hover {
+    border-color: rgba(168, 33, 43, 0.45);
+    box-shadow: 0 8px 24px rgba(59, 46, 26, 0.1);
+}
+
+
+/* ===================== KEYBOARD FOCUS ===================== */
+
+.gallery-item:focus-visible {
+    outline: 0.15rem solid var(--accent-color);
+    outline-offset: 0.2rem;
+}
+
+
+/* ===================== TABLET ===================== */
+
+@media (max-width: 991.98px) {
+    .gallery-header-section::before {
+        display: none;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.2rem;
+    }
+}
+
+
+/* ===================== MOBILE ===================== */
+
+@media (max-width: 575.98px) {
+    .gallery-header-section {
+        padding: 3.3rem 0 2.6rem;
+    }
+
+    .gallery-main-title {
+        font-size: clamp(2rem, 9vw, 2.65rem);
+    }
+
+    .gallery-section {
+        padding: 0.5rem 0 4rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+/* ===================== GALLERY MODAL ===================== */
+
+.gallery-modal .modal-content {
+    position: relative;
+    border: 0;
+    background-color: #111;
+    overflow: hidden;
+}
+
+.gallery-modal .carousel-item {
+    text-align: center;
+}
+
+.gallery-modal-image {
+    width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery-modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+}
+
+.gallery-modal .carousel-control-prev,
+.gallery-modal .carousel-control-next {
+    width: 10%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gallery-item,
+    .gallery-item img {
+        transition: none;
+    }
+
+    .gallery-item:hover img {
+        transform: none;
+    }
+}
