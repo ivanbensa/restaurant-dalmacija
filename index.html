@@ -218,7 +218,7 @@
             </h1>
 
             <img
-                    src="images/decor/dalmacija-pleter-desno.svg"
+                    src="images/decor/dalmacija-pleter-desnoL.svg"
                     alt=""
                     class="hero-title-ornament"
                     aria-hidden="true"
@@ -752,24 +752,24 @@
     </main>
     <!-- ===================== END OF CONTACT ===================== -->
 
-    <!-- ===================== FOOTER ===================== -->
+  <!-- ===================== FOOTER ===================== -->
   <footer class="footer">
     <div class="container">
 
       <div class="row g-4 py-5">
 
         <!-- BRAND -->
-        <div class="col-lg-4">
+        <div class="col-lg-4 d-flex flex-column">
+
           <a
                   href="./"
-                  class="footer-brand d-inline-flex align-items-center gap-3"
+                  class="footer-brand d-inline-flex align-items-center gap-3 align-self-start"
           >
             <img
                     src="images/croatia_logo.svg"
                     alt=""
                     width="52"
             >
-
             <span>Dalmacija</span>
           </a>
 
@@ -781,16 +781,13 @@
             Gastfreundschaft seit 1980 in Berlin.
           </p>
 
-          <img
-                  src="images/decor/dalmacija-pleter-desno.svg"
-                  alt=""
-                  class="footer-ornament"
-                  aria-hidden="true"
-          >
         </div>
+        <!-- END BRAND -->
+
 
         <!-- NAVIGATION -->
         <div class="col-6 col-lg-2 offset-lg-1">
+
           <h3
                   class="footer-title"
                   data-i18n="footer.navigation"
@@ -799,6 +796,7 @@
           </h3>
 
           <ul class="footer-links">
+
             <li>
               <a href="./" data-i18n="nav.home">
                 Willkommen
@@ -824,15 +822,19 @@
             </li>
 
             <li>
-              <a href="#kontakt" data-i18n="nav.contact">
+              <a href="./#kontakt" data-i18n="nav.contact">
                 Kontakt
               </a>
             </li>
+
           </ul>
         </div>
+        <!-- END NAVIGATION -->
+
 
         <!-- CONTACT -->
-        <div class="col-6 col-lg-4 offset-lg-1">
+        <div class="col-6 col-lg-4 offset-lg-1 d-flex flex-column">
+
           <h3
                   class="footer-title"
                   data-i18n="footer.contact"
@@ -845,27 +847,55 @@
             13403 Berlin-Reinickendorf
           </address>
 
-          <a class="d-block text-decoration-none text-reset" href="tel:+49304134103">
+          <a
+                  class="d-block text-decoration-none text-reset"
+                  href="tel:+49304134103"
+          >
             +49 30 4134103
           </a>
 
-          <a class="d-block text-decoration-none text-reset" href="tel:+491729450190">
-            +49 172 9450190 <i class="bi bi-whatsapp text-success"></i>
+          <a
+                  class="d-block text-decoration-none text-reset"
+                  href="tel:+491729450190"
+          >
+            +49 172 9450190
+            <i class="bi bi-whatsapp text-success"></i>
           </a>
+
         </div>
+        <!-- END CONTACT -->
 
       </div>
 
-      <!-- FOOTER BOTTOM -->
+      <!-- FOOTER DECORATIONS -->
+      <div class="footer-decorations">
+        <img
+                src="images/decor/dalmacija-pleter-desnoL.svg"
+                alt=""
+                class="footer-ornament"
+                aria-hidden="true"
+        >
+
+        <img
+                src="images/decor/dalmacija-dekorR.svg"
+                alt=""
+                class="footer-ornament"
+                aria-hidden="true"
+        >
+      </div>
+
+      <!-- COPYRIGHT -->
       <div class="footer-bottom">
-        <p data-i18n="footer.copyright">
+        <p>
           © 2026 Restaurant Dalmacija. Alle Rechte vorbehalten.
         </p>
       </div>
 
     </div>
   </footer>
-    <!-- ===================== END OF FOOTER ===================== -->
+  <!-- ===================== END FOOTER ===================== -->
+
+
 
 
   <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>

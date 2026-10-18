@@ -192,6 +192,20 @@ a { text-underline-offset: .25em; }
     animation: 0.3s cubic-bezier(0.22, 1, 0.36, 1) both fadeIn;
 }
 
+.footer-decorations {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 1.5rem;
+}
+
+.footer-ornament {
+    width: 4.5rem;
+    height: auto;
+}
+
+
+
 @keyframes fadeOut {
     to {
         opacity: 0;
