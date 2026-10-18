@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
     <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
 
@@ -660,8 +661,12 @@
                     Telefon
                   </h3>
 
-                  <a href="tel:+49304134103">
+                  <a class="d-block" href="tel:+49304134103">
                     +49 30 4134103
+                  </a>
+
+                  <a class="d-block" href="tel:+491729450190">
+                    +49 172 9450190 <i class="bi bi-whatsapp text-success"></i>
                   </a>
                 </div>
               </div>
@@ -704,11 +709,23 @@
             </div>
 
             <a
-                    href="tel:+49304134103"
-                    class="btn contact-reservation-btn"
-                    data-i18n="contact.reservation"
+                    class="navbar-reservation"
+                    href="https://wa.me/491729450190"
+                    target="_blank"
+                    rel="noopener noreferrer"
             >
-              Tisch reservieren
+              <svg
+                      viewBox="0 0 16 16"
+                      fill="#25D366"
+                      stroke="none"
+                      aria-hidden="true"
+              >
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.935a7.926 7.926 0 0 0 1.059 3.959L0 16l4.204-1.102a7.938 7.938 0 0 0 3.79.965h.003c4.366 0 7.925-3.558 7.929-7.935a7.87 7.87 0 0 0-2.325-5.602m-5.607 12.19a6.6 6.6 0 0 1-3.364-.92l-.241-.143-2.495.654.666-2.433-.157-.25a6.6 6.6 0 0 1-1.011-3.49c.002-3.643 2.97-6.61 6.614-6.61a6.568 6.568 0 0 1 4.67 1.934 6.56 6.56 0 0 1 1.93 4.675c-.003 3.643-2.97 6.61-6.612 6.61m3.63-4.947c-.198-.099-1.172-.578-1.353-.644-.182-.066-.313-.099-.445.1-.132.197-.511.644-.626.775-.116.132-.231.148-.43.05-.198-.1-.836-.308-1.592-.984-.588-.524-.985-1.171-1.101-1.369-.115-.198-.012-.305.087-.404.09-.089.198-.231.297-.347.1-.115.132-.198.198-.33.066-.132.033-.248-.017-.347-.05-.099-.445-1.073-.61-1.47-.16-.386-.323-.334-.445-.34l-.379-.007c-.132 0-.347.05-.528.248-.182.198-.693.677-.693 1.65 0 .974.71 1.916.809 2.048.099.132 1.398 2.135 3.387 2.993.473.204.842.326 1.129.417.474.151.905.13 1.246.079.38-.057 1.172-.479 1.336-.941.165-.462.165-.859.116-.941-.05-.083-.182-.132-.38-.231z"/>
+              </svg>
+
+              <span data-i18n="hero.reservation">
+    Tisch reservieren
+  </span>
             </a>
           </div>
 
