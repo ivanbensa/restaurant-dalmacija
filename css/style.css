@@ -65,6 +65,18 @@ a { text-underline-offset: .25em; }
 .hero-eyebrow { display: block; margin-bottom: .3rem; font-family: "Playfair Display", Georgia, serif; font-size: 1.05rem; letter-spacing: .32em; text-transform: uppercase; }
 .hero-title { margin: 0 0 .8rem; font-size: clamp(2.8rem, 7.2vw, 6.1rem); font-weight: 500; line-height: 1.1; letter-spacing: .005em; text-transform: uppercase; }
 .hero-title::after { content: ""; display: block; height: 2px; width: 9rem; margin-top: .8rem; background: #c4383f; }
+
+.hero-title-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-title-ornament {
+    width: clamp(4rem, 6vw, 6rem);
+    height: auto;
+    flex-shrink: 0;
+}
 .hero-subtitle { max-width: 30rem; margin: 0 0 1.8rem; font-family: "Playfair Display", Georgia, serif; font-size: clamp(1.4rem, 2.3vw, 2rem); line-height: 1.35; }
 .hero-btn { display: inline-flex; justify-content: center; align-items: center; gap: .65rem; padding: .85rem 1.2rem; border-radius: 4px; font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; transition: background .2s, color .2s; }
 .hero-btn svg { width: 19px; height: 19px; flex-shrink: 0; }
@@ -166,7 +178,9 @@ a { text-underline-offset: .25em; }
 @media (min-width: 1600px) {
     .hero::before { content: ""; position: absolute; z-index: 2; right: 4rem; top: -.8rem; width: 9rem; height: 13rem; background: url("../images/decor/olive-branch.svg") center / contain no-repeat; transform: rotate(155deg); pointer-events: none; }
 }
-@media (max-width: 1399.98px) { .navbar-reservation { display: none; } }
+@media (max-width: 1399.98px) { .navbar-reservation { display: flex;
+    width: fit-content;
+    margin: 1rem auto; } }
 @media (max-width: 1199.98px) {
     .navbar-nav { padding-top: 1rem; text-align: center; }
     .custom-navbar .nav-link { font-size: .8rem; padding: .75rem .3rem; }
