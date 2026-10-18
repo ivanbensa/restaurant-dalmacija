@@ -24,8 +24,8 @@
     "title": "Naši specijaliteti",
     "intro": "Otkrijte neka od naših najpopularnijih jela hrvatske i dalmatinske kuhinje.",
     "fish": {
-      "title": "Svježa riba",
-      "text": "Svježe pripremljena riblja jela inspirirana Jadranskom obalom."
+      "title": "Riblja jela",
+      "text": "Riblja jela inspirirana jadranskom obalom."
     },
     "grill": {
       "title": "Specijaliteti s roštilja",
@@ -42,7 +42,7 @@
       "text": "Od 1980."
     },
     "fish": {
-      "title": "Svježa riba",
+      "title": "Riblja jela",
       "text": "Okusi Jadrana"
     },
     "wine": {

@@ -24,8 +24,8 @@
     "title": "Our specialties",
     "intro": "Discover some of our most popular dishes from Croatian and Dalmatian cuisine.",
     "fish": {
-      "title": "Fresh fish",
-      "text": "Freshly prepared fish dishes inspired by the Adriatic coast."
+      "title": "Fish Dishes",
+      "text": "Fish dishes inspired by the Adriatic coast."
     },
     "grill": {
       "title": "Grill specialties",
@@ -42,7 +42,7 @@
       "text": "Since 1980"
     },
     "fish": {
-      "title": "Fresh fish",
+      "title": "Fish Dishes",
       "text": "A taste of the Adriatic"
     },
     "wine": {

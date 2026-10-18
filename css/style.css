@@ -57,7 +57,7 @@ a { text-underline-offset: .25em; }
 .language-switcher .dropdown-item[aria-pressed="true"] { color: var(--accent-color); }
 
 /* An authentic dining-room photograph, with a dark warm edge for readable type. */
-.hero { position: relative; min-height: clamp(31rem, 58vh, 39rem); display: flex; align-items: center; background: url("../images/welcome-dalmacija.webp") center 54% / cover no-repeat; }
+.hero { position: relative; min-height: clamp(31rem, 58vh, 39rem); display: flex; align-items: center; background: url("../images/gallery/restoran-dalmacija-inside2.png") center 54% / cover no-repeat; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(23, 18, 13, .86), rgba(24, 22, 16, .57) 48%, rgba(24, 22, 16, .13)); }
 .hero::after { content: ""; position: absolute; bottom: -1px; left: 0; right: 0; height: 26px; background: url("../images/decor/paper-grain.svg"), var(--cream-color); clip-path: polygon(0 15%, 10% 38%, 24% 57%, 41% 85%, 57% 100%, 73% 85%, 88% 45%, 100% 0, 100% 100%, 0 100%); }
 .hero-content { position: relative; z-index: 1; padding-top: 3.5rem; padding-bottom: 4rem; }

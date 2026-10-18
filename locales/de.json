@@ -24,8 +24,8 @@
     "title": "Unsere Spezialitäten",
     "intro": "Entdecken Sie einige unserer beliebtesten Gerichte aus der kroatischen und dalmatinischen Küche.",
     "fish": {
-      "title": "Frischer Fisch",
-      "text": "Frisch zubereitete Fischgerichte, inspiriert von der Adriaküste."
+      "title": "Fischgerichte",
+      "text": "Fischgerichte, inspiriert von der Adriaküste."
     },
     "grill": {
       "title": "Grillspezialitäten",
@@ -42,7 +42,7 @@
       "text": "Seit 1980"
     },
     "fish": {
-      "title": "Frischer Fisch",
+      "title": "Fischgerichte",
       "text": "Adriatischer Genuss"
     },
     "wine": {
