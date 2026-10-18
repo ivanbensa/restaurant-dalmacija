@@ -175,9 +175,7 @@ a { text-underline-offset: .25em; }
 .skip-link:focus { top: 1rem; }
 
 /* Mobile layouts remove decoration instead of shrinking a desktop composition. */
-@media (min-width: 1600px) {
-    .hero::before { content: ""; position: absolute; z-index: 2; right: 4rem; top: -.8rem; width: 9rem; height: 13rem; background: url("../images/decor/olive-branch.svg") center / contain no-repeat; transform: rotate(155deg); pointer-events: none; }
-}
+
 @media (max-width: 1399.98px) { .navbar-reservation { display: flex;
     width: fit-content;
     margin: 1rem auto; } }
