@@ -178,6 +178,42 @@ a { text-underline-offset: .25em; }
 .skip-link { position: absolute; top: -5rem; left: 1rem; z-index: 9999; max-width: calc(100% - 2rem); padding: .7rem 1rem; background: var(--primary-dark); color: #fff; text-decoration: none; }
 .skip-link:focus { top: 1rem; }
 
+/* Smooth page transitions */
+/* Smooth page transitions */
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-old(root) {
+    animation: 0.18s ease-in both fadeOut;
+}
+
+::view-transition-new(root) {
+    animation: 0.3s cubic-bezier(0.22, 1, 0.36, 1) both fadeIn;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+        animation: none;
+    }
+}
+
 /* Mobile layouts remove decoration instead of shrinking a desktop composition. */
 
 @media (max-width: 1399.98px) { .navbar-reservation { display: flex;
