@@ -1,32 +1,97 @@
 <!doctype html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
-    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="preload" href="fonts/great-vibes-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
+  <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="preload" href="fonts/great-vibes-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
-    <title data-i18n="pageTitles.home">Restaurant Dalmacija | Kroatische Küche in Berlin</title>
-    <meta name="description" data-i18n-content="metaDescriptions.home" content="Restaurant Dalmacija in Berlin-Reinickendorf: kroatische Küche seit 1980. Entdecken Sie Speisen, Getränke, Öffnungszeiten und Kontakt.">
-    <link rel="icon" type="image/svg+xml" href="images/favicon2.svg">
+  <title data-i18n="pageTitles.home">Restaurant Dalmacija | Kroatische Küche in Berlin</title>
+  <meta name="description" data-i18n-content="metaDescriptions.home" content="Restaurant Dalmacija in Berlin-Reinickendorf: kroatische Küche seit 1980. Entdecken Sie Speisen, Getränke, Öffnungszeiten und Kontakt.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon2.svg">
 
-    <!-- OPEN GRAPH - WhatsApp, Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.dalmacija-berlin.de/">
-    <meta property="og:title" content="Restaurant Dalmacija | Kroatische Küche in Berlin">
-    <meta property="og:description" content="Kroatische Küche seit 1980 in Berlin-Reinickendorf. Entdecken Sie unsere Spezialitäten und besuchen Sie uns!">
-    <meta property="og:image" content="https://www.dalmacija-berlin.de/images/dalmacija-whatsapp-preview3.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Restaurant Dalmacija in Berlin-Reinickendorf">
-  </head>
+  <!-- OPEN GRAPH - WhatsApp, Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.dalmacija-berlin.de/">
+  <meta property="og:title" content="Restaurant Dalmacija | Kroatische Küche in Berlin">
+  <meta property="og:description" content="Kroatische Küche seit 1980 in Berlin-Reinickendorf. Entdecken Sie unsere Spezialitäten und besuchen Sie uns!">
+  <meta property="og:image" content="https://www.dalmacija-berlin.de/images/dalmacija-whatsapp-preview3.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Restaurant Dalmacija in Berlin-Reinickendorf">
+
+  <!-- Local search: canonical URL and search preview settings -->
+  <link rel="canonical" href="https://www.dalmacija-berlin.de/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <!-- Open Graph: one set per page -->
+  <meta property="og:site_name" content="Restaurant Dalmacija">
+  <meta property="og:locale" content="de_DE">
+
+  <!-- Restaurant: verified business details, shared identity on every page -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "@id": "https://www.dalmacija-berlin.de/#restaurant",
+      "name": "Restaurant Dalmacija",
+      "url": "https://www.dalmacija-berlin.de/",
+      "description": "Kroatisches Restaurant in Berlin-Reinickendorf seit 1980 mit dalmatinischer Küche, Ćevapčići, Grill- und Fischspezialitäten.",
+      "image": [
+        "https://www.dalmacija-berlin.de/images/gallery/restaurant-out.webp",
+        "https://www.dalmacija-berlin.de/images/gallery/restoran-dalmacija-inside3.webp",
+        "https://www.dalmacija-berlin.de/images/specialties/grill1.jpg"
+      ],
+      "telephone": "+49-30-4134103",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Quäkerstraße 2",
+        "postalCode": "13403",
+        "addressLocality": "Berlin",
+        "addressRegion": "Berlin",
+        "addressCountry": "DE"
+      },
+      "servesCuisine": [
+        "Kroatisch",
+        "Dalmatinisch",
+        "Balkan"
+      ],
+      "menu": "https://www.dalmacija-berlin.de/menu.html",
+      "acceptsReservations": true,
+      "foundingDate": "1980",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "https://schema.org/Monday"
+          ],
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday",
+            "https://schema.org/Saturday",
+            "https://schema.org/Sunday"
+          ],
+          "opens": "12:00",
+          "closes": "21:00"
+        }
+      ]
+    }
+  </script>
+</head>
   <body class="index-page">
   <a class="skip-link" data-i18n="accessibility.skipLink" href="#main-content">
     Zum Hauptinhalt springen
