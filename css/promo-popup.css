@@ -16,7 +16,7 @@
     display: block;
     width: 100%;
     height: auto;
-    max-height: calc(100dvh - 2rem);
+    max-height: calc(100dvh - 6rem);
     object-fit: contain;
     border-radius: 12px;
 }
@@ -31,4 +31,12 @@
     padding: 0.7rem;
     opacity: 1;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.promo-popup .promo-date {
+    display: block;
+    width: 90%;
+    max-width: 420px;
+    height: auto;
+    margin: 12px auto 0;
 }

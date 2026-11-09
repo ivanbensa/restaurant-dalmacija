@@ -41,6 +41,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     ></button>
 
                     <img class="promo-image" alt="">
+                    <img
+    class="promo-date"
+    src="images/promotions/date.png"
+    alt="Vom 11.11.2026 bis 20.12.2026"
+>
 
                 </div>
             </div>
