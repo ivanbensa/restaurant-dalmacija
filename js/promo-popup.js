@@ -12,9 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!promotion.enabled) return;
 
     // Show only once per browser session
-    const storageKey = `dalmacija-promo-${promotion.id}`;
 
-    if (sessionStorage.getItem(storageKey)) return;
 
     // Create Bootstrap modal
     const modalHTML = `
@@ -72,8 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
     image.src = promotion.image;
 
     // Remember that the visitor has seen the popup
-    modalElement.addEventListener("shown.bs.modal", () => {
-        sessionStorage.setItem(storageKey, "seen");
-    }, { once: true });
+
 
 });
