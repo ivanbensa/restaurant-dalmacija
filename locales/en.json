@@ -70,7 +70,8 @@
     "monday": "Monday",
     "closed": "Closed",
     "tuesdaySunday": "Tuesday – Sunday",
-    "reservation": "Reserve a table"
+    "reservation": "Reserve a table",
+    "kitchenHours": "Kitchen open until 20:00 !"
   },
   "footer": {
     "description": "Traditional Croatian cuisine and Dalmatian hospitality in Berlin since 1980.",

@@ -138,6 +138,8 @@ a { text-underline-offset: .25em; }
 .gallery-preview-wide { height: 14rem; }
 .gallery-link { margin-top: .5rem; }
 
+
+
 /* Practical contact details, warm framing and the existing map. */
 .contact-section { position: relative; isolation: isolate; padding: 4.5rem 0; }
 .contact-section::before { content: ""; position: absolute; z-index: -1; bottom: 0; left: 0; width: min(45vw, 40rem); height: 15rem; background: url("../images/decor/dalmatian-coast.svg") center bottom / contain no-repeat; opacity: .1; pointer-events: none; }
@@ -309,4 +311,15 @@ a { text-underline-offset: .25em; }
     html { scroll-behavior: auto; }
     .specialty-card, .gallery-preview-item img, .nav-link, .nav-link::after, .hero-btn, .navbar-reservation, .footer a { transition: none !important; }
     .specialty-card:hover, .gallery-preview-item:hover img { transform: none; }
+}
+
+.contact-item .opening-hours-row .kitchen-hours {
+    display: block;
+    margin: 12px 0 0;
+    padding: 4px 0 4px 12px;
+    border-left: 3px solid var(--accent-color);
+    color: var(--bs-red);
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.5;
 }

@@ -70,7 +70,8 @@
     "monday": "Ponedjeljak",
     "closed": "Zatvoreno",
     "tuesdaySunday": "Utorak – Nedjelja",
-    "reservation": "Rezervirajte stol"
+    "reservation": "Rezervirajte stol",
+    "kitchenHours": "Kuhinja radi do 20:00 !"
   },
   "footer": {
     "description": "Tradicionalna hrvatska kuhinja i dalmatinsko gostoprimstvo od 1980. godine u Berlinu.",

@@ -70,7 +70,8 @@
     "monday": "Montag",
     "closed": "Geschlossen",
     "tuesdaySunday": "Dienstag – Sonntag",
-    "reservation": "Tisch reservieren"
+    "reservation": "Tisch reservieren",
+    "kitchenHours": "Küche bis 20:00 Uhr !"
   },
   "footer": {
     "description": "Traditionelle kroatische Küche und dalmatinische Gastfreundschaft seit 1980 in Berlin.",
